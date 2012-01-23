@@ -1,0 +1,13 @@
+*.com
+*.class
+*.dll
+*.o
+*.7z
+*.log
+*.DS_Store*
+Icon?
+Thumbs.db
+*.swp
+
+recovery/*
+!recovery/
