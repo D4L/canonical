@@ -4,10 +4,9 @@
 *.o
 *.7z
 *.log
-*.DS_Store*
+.DS_Store*
 Icon?
 Thumbs.db
 *.swp
 
 recovery/*
-!recovery/
