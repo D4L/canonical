@@ -25,6 +25,7 @@ set tabstop=4
 set smarttab
 set lbr
 set tw=500
+set cindent
 set autoindent
 set si " Smart indent
 set wrap " wrap lines
@@ -33,10 +34,8 @@ set wrap " wrap lines
 set nocompatible
 set showcmd
 set history=700
-filetype plugin on
-filetype plugin indent on
+filetype on
 syntax enable
-filetype indent on
 set autoread " auto read when a file is changed from the outside
 
 " Remove trailing white space
