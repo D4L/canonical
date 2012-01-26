@@ -23,11 +23,11 @@ Authors
 
 Austin.L **~D4L**
 
-[FAKELINK][teehee.com]
+![FAKELINK](teehee.com)
 
-[FAKELINK][teehee.com]
+![FAKELINK](teehee.com)
 
-[FAKELINK][teehee.com]
+![FAKELINK](teehee.com)
 
 ---
 cogito ergo sum, noli umquam oblivisci.
