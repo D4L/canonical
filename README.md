@@ -21,5 +21,5 @@ Authors
 Austin.L **~D4L**
 
 
-
-<span style="font-size: 5px">cogito ergo sum, noli umquam oblivisci.</span>
+<br/>
+<small>cogito ergo sum, noli umquam oblivisci.</small>
