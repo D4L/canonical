@@ -22,4 +22,4 @@ Austin.L **~D4L**
 
 
 
-<small>cogito ergo sum, noli umquam oblivisci.</small>
+<span style="font-size: 5px">cogito ergo sum, noli umquam oblivisci.</span>
