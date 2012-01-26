@@ -25,7 +25,6 @@ set tabstop=4
 set smarttab
 set lbr
 set tw=500
-set cindent
 set autoindent
 set si " Smart indent
 set wrap " wrap lines

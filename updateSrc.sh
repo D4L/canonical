@@ -14,3 +14,6 @@ fi
 if [ -d $home/.vim ]; then
     cp -r $home/.vim $scriptdir/src
 fi
+if [ -d $home/.bashfunctions ]; then
+    cp -r $home/.bashfunctions $scriptdir/src
+fi
