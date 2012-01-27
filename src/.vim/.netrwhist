@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/usr2/austinl/canonical/.git'
+let g:netrw_dirhist_2='/local/mnt/workspace/Code/mdm/diagRebootBuild/diag/PktRspTest'
+let g:netrw_dirhist_3='/local/mnt/workspace/Code/mdm'
+let g:netrw_dirhist_4='/local/mnt/workspace/Code/mdm/HelloWorldBuild/build/qcom-recipes/recipes/helloworld'
+let g:netrw_dirhist_5='/local/mnt/workspace/Code/mdm/diagRebootBuild/diag/PktRspTest'
+let g:netrw_dirhist_6='/local/mnt/workspace/Code/mdm/diagRebootBuild/rebootdiag'
