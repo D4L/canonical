@@ -6,6 +6,7 @@ alias la='ls -aF --color'
 alias ls='ls -F --color'
 alias ll='ls -lF --color'
 alias vim='gvim'
+alias vii='/usr/bin/vim'
 alias cd='cdls'
 
 echo "Adding PATHs ..."
@@ -28,10 +29,10 @@ function _git_ps1 () {
     if [[ $status == "" ]]; then
         echo ""
     else
-        echo $(git-branch-g)$(git-dirty)
+        echo "($(git-branch-g)$(git-dirty))"
     fi
 }
-PS1="$(tput bold)$(tput setaf 7)AT: $(tput setaf 6) \w (\$(_git_ps1))\$(tput sgr0)\r\n$(tput setaf 3)\h >$(tput sgr0) "
+PS1="$(tput bold)$(tput setaf 7)AT: $(tput setaf 6) \w \$(_git_ps1)\$(tput sgr0)\r\n$(tput setaf 3)\h >$(tput sgr0) "
 
 echo "adding git auto completion ..."
 
