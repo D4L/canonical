@@ -21,6 +21,7 @@ function cdl () { source $BASHFUNCTIONS/cdl.sh; }
 function reterm () { source $BASHFUNCTIONS/reterm.sh; }
 function git-branch-g () { source $BASHFUNCTIONS/gitbranchg.sh; }
 function git-dirty () { source $BASHFUNCTIONS/gitdirty.sh; }
+function lock () { gnome-screensaver-command -l; }
 
 echo "Changing PS1 ..."
 
