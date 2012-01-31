@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "WYOTHEUOTE"
+builtin cd $1 && ls
