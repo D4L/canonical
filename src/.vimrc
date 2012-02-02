@@ -65,6 +65,14 @@ autocmd FileType c,cpp,java,php,ruby,js,python,twig,xml,yml autocmd BufWritePre 
 set wildmenu
 set wildmode=list:longest,full
 
+" Folds 
+augroup vimrc
+    au BufReadPre * setlocal foldmethod=indent
+    au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
+augroup END
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':'l')<CR>
+vnoremap <Space> zf
+
 " If this is ever needed, set jj to <esc>
 inoremap jj <Esc>
 nnoremap JJJJ <Nop>
@@ -90,3 +98,28 @@ au FileType xml,html,xhtml let b:delimitMate_matchpairs = "(:),[:],(:)"
 
 " Ctags 
 set tags=./tags;/,$HOME/vimtags
+
+" Command-t
+let g:CommandTSearchPath = $HOME . '/workspace/Code'
+
+"NerdTree
+map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+map <leader>e :NERDTreeFind<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd vimenter * NERDTree
+let NERDTreeShowBooksmarks=1
+let NERDTreeIgnore=['\.pfc', '\~$', '\.swp$', '\.git']
+let NERDTreeChDirMode=0
+let NERDTreeShowHidden=1
+let NERDTreeKeepTreeInNewTab=1
+function! NERDTreeInitAsNeeded()
+    redir => bufoutput
+    buffers!
+    redir END
+    let idx = stridx(bufoutput, "NERD_tree")
+    if idx > -1
+        NERDTreeMirror
+        NERDTreeFind
+        wincmd 1
+    endif
+endfunction
