@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/usr2/austinl/.vim/bundle/snipmate.vim/.git'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/local/mnt/workspace/Code/mdm/diagRebootBuild/build/qcom-recipes/recipes/data'
+let g:netrw_dirhist_2='/local/mnt/workspace/Code/mdm/RebootPackageBuild/diag-reboot-app/.git/logs'
+let g:netrw_dirhist_3='/local/mnt/workspace/Code/mdm/RebootPackageBuild/diag-reboot-app/.git/logs/refs'
+let g:netrw_dirhist_4='/local/mnt/workspace/Code/mdm/RebootPackageBuild/diag-reboot-app/.git/logs/refs/remotes'
+let g:netrw_dirhist_5='/local/mnt/workspace/Code/mdm/RebootPackageBuild/diag-reboot-app/.git/logs/refs/remotes/quic'
