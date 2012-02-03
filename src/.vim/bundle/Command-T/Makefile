@@ -7,6 +7,8 @@ vimfiles    := $(shell find plugin -name '*.vim')
 
 vimball:	command-t.vba
 
+CFLAGS += -std=c99
+
 command-t.recipe: $(rubyfiles) $(cfiles) $(cheaders) $(depends) $(txtfiles) $(vimfiles)
 	echo "$^" | perl -pe 's/ /\n/g' > $@
 command-t.vba: command-t.recipe

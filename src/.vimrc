@@ -67,7 +67,7 @@ set wildmode=list:longest,full
 
 " Folds 
 augroup vimrc
-    au BufReadPre * setlocal foldmethod=indent
+    au BufReadPost * setlocal foldmethod=indent
     au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
 augroup END
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':'l')<CR>
@@ -98,15 +98,18 @@ au FileType xml,html,xhtml let b:delimitMate_matchpairs = "(:),[:],(:)"
 
 " Ctags 
 set tags=./tags;/,$HOME/vimtags
+map <Leader>d :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
 " Command-t
 let g:CommandTSearchPath = $HOME . '/workspace/Code'
 
 "NerdTree
+map <leader>w <C-w>w
 map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 map <leader>e :NERDTreeFind<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 autocmd vimenter * NERDTree
+autocmd vimenter * wincmd p
 let NERDTreeShowBooksmarks=1
 let NERDTreeIgnore=['\.pfc', '\~$', '\.swp$', '\.git']
 let NERDTreeChDirMode=0
@@ -123,3 +126,14 @@ function! NERDTreeInitAsNeeded()
         wincmd 1
     endif
 endfunction
+
+" Taglist
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Auto_Update = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_File_Fold_Auto_Close = 1
+let Tlist_Highlight_Tag_On_BufEnter = 1
+let Tlist_Use_Right_Window = 1
+let Tlist_Use_SingleClick = 1
+let g:ctags_statusline=1
+let g:tlist_javascript_settings = 'javascript;f:function;c:class;m:method;p:property;v:global'
