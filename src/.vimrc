@@ -1,5 +1,6 @@
 " Environment
 set nocompatible
+set lines=37 columns=150
 runtime! autoload/pathogen.vim
 silent! call pathogen#helptags()
 silent! call pathogen#runtime_append_all_bundles()
@@ -98,16 +99,32 @@ au FileType xml,html,xhtml let b:delimitMate_matchpairs = "(:),[:],(:)"
 
 " Ctags 
 set tags=./tags;/,$HOME/vimtags
-map <Leader>d :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <Leader>d :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 " Command-t
-let g:CommandTSearchPath = $HOME . '/workspace/Code'
+let g:CommandTSearchPath = $HOME . "/Documents/Code"
+let g:CommandTMaxHeight = 15
 
 "NerdTree
 map <leader>w <C-w>w
 map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 map <leader>e :NERDTreeFind<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * call CloseIfOnlyNerdTag()
+function! CloseIfOnlyNerdTag()
+    let tagNum = bufwinnr(g:TagList_title)
+    if exists("t:NERDTreeBufName")
+        let nerNum = bufwinnr(t:NERDTreeBufName)
+    else
+        let nerNum = -1
+    endif
+    if winnr("$") == 1
+        if (exists("b:NERDTreeType") && b:NERDTreeType == "primary")
+            quit
+        endif
+    elseif (winnr("$") == 2 && tagNum != -1 && nerNum != -1)
+        qa
+    endif
+endfunction
 autocmd vimenter * NERDTree
 autocmd vimenter * wincmd p
 let NERDTreeShowBooksmarks=1
@@ -137,3 +154,4 @@ let Tlist_Use_Right_Window = 1
 let Tlist_Use_SingleClick = 1
 let g:ctags_statusline=1
 let g:tlist_javascript_settings = 'javascript;f:function;c:class;m:method;p:property;v:global'
+map <leader>tl :TlistToggle<CR>

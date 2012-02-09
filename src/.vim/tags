@@ -1,0 +1,1076 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+"_ddgg	bundle/delimitMate/autoload/delimitMateTests.vim	/^	normal "_ddgg$/;"	m
+%	bundle/matchit/plugin/matchit.vim	/^nnoremap <silent> %  :<C-U>call <SID>Match_wrapper('',1,'n') <CR>$/;"	m
+%	bundle/matchit/plugin/matchit.vim	/^onoremap <silent> %  v:<C-U>call <SID>Match_wrapper('',1,'o') <CR>$/;"	m
+%	bundle/matchit/plugin/matchit.vim	/^vnoremap <silent> %  :<C-U>call <SID>Match_wrapper('',1,'v') <CR>m'gv``$/;"	m
+<Plug>SuperTabBackward	bundle/supertab/plugin/supertab.vim	/^  imap <script> <Plug>SuperTabBackward <c-r>=<SID>SuperTab('p')<cr>$/;"	m
+<Plug>SuperTabForward	bundle/supertab/plugin/supertab.vim	/^  imap <script> <Plug>SuperTabForward <c-r>=<SID>SuperTab('n')<cr>$/;"	m
+<SID>xx	bundle/tag_list/plugin/taglist.vim	/^    map <SID>xx <SID>xx$/;"	m
+<c-n>	bundle/supertab/plugin/supertab.vim	/^    imap <c-n> <Plug>SuperTabForward$/;"	m
+<c-p>	bundle/supertab/plugin/supertab.vim	/^    imap <c-p> <Plug>SuperTabBackward$/;"	m
+<c-x>	bundle/supertab/plugin/supertab.vim	/^  imap <c-x> <c-r>=<SID>ManualCompletionEnter()<cr>$/;"	m
+<cr>	bundle/snipmate/ftplugin/snippet.vim	/^vnoremap <buffer> <cr> :RetabSnip<cr>$/;"	m
+<cr>	bundle/supertab/plugin/supertab.vim	/^      inoremap <cr> <c-r>=<SID>SelectCompletion(1)<cr>$/;"	m
+AR	bundle/Command-T/ruby/command-t/Makefile	/^AR = ar$/;"	m
+AUTOL	bundle/delimitMate/Makefile	/^AUTOL=autoload\/$(PLUGIN).vim$/;"	m
+Add	bundle/snipmate/autoload/snipMate_python_demo.vim	/^fun! s:Add(dict, line, source, trigger)$/;"	f
+AddScopeAliases	bundle/snipmate/autoload/snipMate.vim	/^fun! s:AddScopeAliases(list)$/;"	f
+AppLog	bundle/Command-T/vendor/vimball/vimball.rb	/^    class AppLog$/;"	c	class:Vimball
+AppLog	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^    class AppLog$/;"	c	class:VimScriptDef
+AppLog	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^    class AppLog$/;"	c	class:VimScriptUploader
+AutoClose	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:AutoClose() "{{{$/;"	f
+BINDIR	bundle/Command-T/ruby/command-t/Makefile	/^BINDIR        = $(bindir)$/;"	m
+BackwardsSnippet	bundle/snipmate/plugin/snipMate.vim	/^fun! BackwardsSnippet()$/;"	f
+Bookmark.AddBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.activate()$/;"	f
+Bookmark.compareTo	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.openInNewTab	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Bookmark.validate()$/;"	f
+Buffer	bundle/Command-T/spec/command-t/scanner/buffer_scanner_spec.rb	/^  class Buffer; end$/;"	c	class:VIM
+BufferFinder	bundle/Command-T/ruby/command-t/finder/buffer_finder.rb	/^  class BufferFinder < Finder$/;"	c	class:CommandT
+BufferScanner	bundle/Command-T/ruby/command-t/scanner/buffer_scanner.rb	/^  class BufferScanner < Scanner$/;"	c	class:CommandT
+BuildTabStops	bundle/snipmate/autoload/snipMate.vim	/^fun! s:BuildTabStops(snip, lnum, col, indent)$/;"	f
+CC	bundle/Command-T/ruby/command-t/Makefile	/^CC = gcc$/;"	m
+CFLAGS	bundle/Command-T/ruby/command-t/Makefile	/^CFLAGS   =  -fPIC -fno-strict-aliasing -g -g -O2  -fPIC $(cflags) $/;"	m
+CLEANFILES	bundle/Command-T/ruby/command-t/Makefile	/^CLEANFILES = mkmf.log$/;"	m
+CLEANLIBS	bundle/Command-T/ruby/command-t/Makefile	/^CLEANLIBS     = $(TARGET).so $(TARGET).il? $(TARGET).tds $(TARGET).map$/;"	m
+CLEANOBJS	bundle/Command-T/ruby/command-t/Makefile	/^CLEANOBJS     = *.o *.a *.s[ol] *.pdb *.exp *.bak$/;"	m
+COPY	bundle/Command-T/ruby/command-t/Makefile	/^COPY = cp$/;"	m
+CPPFLAGS	bundle/Command-T/ruby/command-t/Makefile	/^CPPFLAGS = -DHAVE_RUBY_H  $(DEFS) $(cppflags)$/;"	m
+CXXFLAGS	bundle/Command-T/ruby/command-t/Makefile	/^CXXFLAGS = $(CFLAGS) $/;"	m
+CaptureKeyPresses	bundle/supertab/plugin/supertab.vim	/^function! s:CaptureKeyPresses()$/;"	f
+Choose	bundle/matchit/plugin/matchit.vim	/^fun! s:Choose(patterns, string, comma, branch, prefix, suffix, ...)$/;"	f
+ChooseSnippet	bundle/snipmate/plugin/snipMate.vim	/^fun! s:ChooseSnippet(snippets)$/;"	f
+CleanUp	bundle/matchit/plugin/matchit.vim	/^fun! s:CleanUp(options, mode, startline, startcol, ...)$/;"	f
+Close	bundle/snipmate/ftplugin/html_snip_helper.vim	/^fun! Close()$/;"	f
+CommandLineCompletion	bundle/supertab/plugin/supertab.vim	/^function! s:CommandLineCompletion()$/;"	f
+CommandT	bundle/Command-T/plugin/command-t.vim	/^command -nargs=? -complete=dir CommandT call <SID>CommandTShowFileFinder(<q-args>)$/;"	c
+CommandT	bundle/Command-T/ruby/command-t/controller.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/finder/buffer_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/finder/file_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/finder/jump_finder.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/match_window.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/prompt.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/scanner/buffer_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/scanner/jump_scanner.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/settings.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/stub.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/vim.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/vim/path_utilities.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/vim/screen.rb	/^module CommandT$/;"	m
+CommandT	bundle/Command-T/ruby/command-t/vim/window.rb	/^module CommandT$/;"	m
+CommandTAcceptSelection	bundle/Command-T/plugin/command-t.vim	/^function CommandTAcceptSelection()$/;"	f
+CommandTAcceptSelectionSplit	bundle/Command-T/plugin/command-t.vim	/^function CommandTAcceptSelectionSplit()$/;"	f
+CommandTAcceptSelectionTab	bundle/Command-T/plugin/command-t.vim	/^function CommandTAcceptSelectionTab()$/;"	f
+CommandTAcceptSelectionVSplit	bundle/Command-T/plugin/command-t.vim	/^function CommandTAcceptSelectionVSplit()$/;"	f
+CommandTBackspace	bundle/Command-T/plugin/command-t.vim	/^function CommandTBackspace()$/;"	f
+CommandTBuffer	bundle/Command-T/plugin/command-t.vim	/^command CommandTBuffer call <SID>CommandTShowBufferFinder()$/;"	c
+CommandTCancel	bundle/Command-T/plugin/command-t.vim	/^function CommandTCancel()$/;"	f
+CommandTClear	bundle/Command-T/plugin/command-t.vim	/^function CommandTClear()$/;"	f
+CommandTCursorEnd	bundle/Command-T/plugin/command-t.vim	/^function CommandTCursorEnd()$/;"	f
+CommandTCursorLeft	bundle/Command-T/plugin/command-t.vim	/^function CommandTCursorLeft()$/;"	f
+CommandTCursorRight	bundle/Command-T/plugin/command-t.vim	/^function CommandTCursorRight()$/;"	f
+CommandTCursorStart	bundle/Command-T/plugin/command-t.vim	/^function CommandTCursorStart()$/;"	f
+CommandTDelete	bundle/Command-T/plugin/command-t.vim	/^function CommandTDelete()$/;"	f
+CommandTFlush	bundle/Command-T/plugin/command-t.vim	/^command CommandTFlush call <SID>CommandTFlush()$/;"	c
+CommandTFlush	bundle/Command-T/plugin/command-t.vim	/^function s:CommandTFlush()$/;"	f
+CommandTHandleKey	bundle/Command-T/plugin/command-t.vim	/^function CommandTHandleKey(arg)$/;"	f
+CommandTJump	bundle/Command-T/plugin/command-t.vim	/^command CommandTJump call <SID>CommandTShowJumpFinder()$/;"	c
+CommandTMatch_initialize	bundle/Command-T/ruby/command-t/match.c	/^VALUE CommandTMatch_initialize(int argc, VALUE *argv, VALUE self)$/;"	f
+CommandTMatch_matches	bundle/Command-T/ruby/command-t/match.c	/^VALUE CommandTMatch_matches(VALUE self)$/;"	f
+CommandTMatch_to_s	bundle/Command-T/ruby/command-t/match.c	/^VALUE CommandTMatch_to_s(VALUE self)$/;"	f
+CommandTMatcher_initialize	bundle/Command-T/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_initialize(int argc, VALUE *argv, VALUE self)$/;"	f
+CommandTMatcher_matches_for	bundle/Command-T/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_matches_for(VALUE self, VALUE abbrev)$/;"	f
+CommandTMatcher_sorted_matches_for	bundle/Command-T/ruby/command-t/matcher.c	/^VALUE CommandTMatcher_sorted_matches_for(VALUE self, VALUE abbrev, VALUE options)$/;"	f
+CommandTRubyWarning	bundle/Command-T/plugin/command-t.vim	/^function s:CommandTRubyWarning()$/;"	f
+CommandTSelectNext	bundle/Command-T/plugin/command-t.vim	/^function CommandTSelectNext()$/;"	f
+CommandTSelectPrev	bundle/Command-T/plugin/command-t.vim	/^function CommandTSelectPrev()$/;"	f
+CommandTShowBufferFinder	bundle/Command-T/plugin/command-t.vim	/^function s:CommandTShowBufferFinder()$/;"	f
+CommandTShowFileFinder	bundle/Command-T/plugin/command-t.vim	/^function s:CommandTShowFileFinder(arg)$/;"	f
+CommandTShowJumpFinder	bundle/Command-T/plugin/command-t.vim	/^function s:CommandTShowJumpFinder()$/;"	f
+CommandTToggleFocus	bundle/Command-T/plugin/command-t.vim	/^function CommandTToggleFocus()$/;"	f
+CommandT_option_from_hash	bundle/Command-T/ruby/command-t/ext.c	/^VALUE CommandT_option_from_hash(const char *option, VALUE hash)$/;"	f
+CompletionReset	bundle/supertab/plugin/supertab.vim	/^function! s:CompletionReset(char)$/;"	f
+ContextCompletion	bundle/supertab/plugin/supertab.vim	/^function! s:ContextCompletion()$/;"	f
+ContextDiscover	bundle/supertab/plugin/supertab.vim	/^function! s:ContextDiscover()$/;"	f
+ContextText	bundle/supertab/plugin/supertab.vim	/^function! s:ContextText()$/;"	f
+Controller	bundle/Command-T/ruby/command-t/controller.rb	/^  class Controller$/;"	c	class:CommandT
+Count	bundle/matchit/plugin/matchit.vim	/^fun! s:Count(string, pattern, ...)$/;"	f
+Count	bundle/snipmate/autoload/snipMate.vim	/^fun! s:Count(haystack, needle)$/;"	f
+DEFFILE	bundle/Command-T/ruby/command-t/Makefile	/^DEFFILE = $/;"	m
+DEFS	bundle/Command-T/ruby/command-t/Makefile	/^DEFS     = $/;"	m
+DISTCLEANFILES	bundle/Command-T/ruby/command-t/Makefile	/^DISTCLEANFILES = $/;"	m
+DLDFLAGS	bundle/Command-T/ruby/command-t/Makefile	/^DLDFLAGS = $(ldflags) $(dldflags) $(archflag)$/;"	m
+DLLIB	bundle/Command-T/ruby/command-t/Makefile	/^DLLIB = $(TARGET).so$/;"	m
+DOC	bundle/delimitMate/Makefile	/^DOC=$(wildcard doc\/*.txt)$/;"	m
+DelimitMateDo	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:DelimitMateDo(...) "{{{$/;"	f
+DelimitMateReload	bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateReload call s:DelimitMateDo(1)$/;"	c
+DelimitMateSwitch	bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateSwitch call s:DelimitMateSwitch()$/;"	c
+DelimitMateSwitch	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:DelimitMateSwitch() "{{{$/;"	f
+DelimitMateTest	bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateTest silent call s:TestMappingsDo()$/;"	c
+EXEEXT	bundle/Command-T/ruby/command-t/Makefile	/^EXEEXT = $/;"	m
+EXTSTATIC	bundle/Command-T/ruby/command-t/Makefile	/^EXTSTATIC = $/;"	m
+EnableLongestEnhancement	bundle/supertab/plugin/supertab.vim	/^function! s:EnableLongestEnhancement()$/;"	f
+ExpandMap	bundle/supertab/plugin/supertab.vim	/^function! s:ExpandMap(map)$/;"	f
+ExtraMappings	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:ExtraMappings() "{{{$/;"	f
+FileFinder	bundle/Command-T/ruby/command-t/finder/file_finder.rb	/^  class FileFinder < Finder$/;"	c	class:CommandT
+FileLimitExceeded	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    class FileLimitExceeded < ::RuntimeError; end$/;"	c	class:CommandT.FileScanner
+FileScanner	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^  class FileScanner < Scanner$/;"	c	class:CommandT
+Filename	bundle/snipmate/autoload/snipMate.vim	/^fun! Filename(...)$/;"	f
+Finder	bundle/Command-T/ruby/command-t/finder.rb	/^  class Finder$/;"	c	class:CommandT
+Finish	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Finish() " {{{$/;"	f
+FlushBuffer	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:FlushBuffer() " {{{$/;"	f
+Formatter	bundle/Command-T/spec/vim_formatter.rb	/^    module Formatter$/;"	m	class:Spec.Runner
+ForwardBack	bundle/supertab/plugin/supertab.vim	/^  function! s:ForwardBack(command, map)$/;"	f
+GetSnippet	bundle/snipmate/plugin/snipMate.vim	/^fun! s:GetSnippet(word, scope)$/;"	f
+Glob	bundle/snipmate/autoload/snipMate.vim	/^fun! s:Glob(dir,  file)$/;"	f
+INCFLAGS	bundle/Command-T/ruby/command-t/Makefile	/^INCFLAGS = -I. -I$(topdir) -I$(hdrdir) -I$(srcdir)$/;"	m
+INSTALL	bundle/Command-T/ruby/command-t/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	bundle/Command-T/ruby/command-t/Makefile	/^INSTALL_DATA = $(INSTALL) -m 644$/;"	m
+INSTALL_PROG	bundle/Command-T/ruby/command-t/Makefile	/^INSTALL_PROG = $(INSTALL) -m 0755$/;"	m
+Init	bundle/supertab/plugin/supertab.vim	/^function! s:Init()$/;"	f
+InitBuffer	bundle/supertab/plugin/supertab.vim	/^function! s:InitBuffer()$/;"	f
+Init_ext	bundle/Command-T/ruby/command-t/ext.c	/^void Init_ext()$/;"	f
+InsertRefs	bundle/matchit/plugin/matchit.vim	/^fun! s:InsertRefs(groupBR, prefix, group, suffix, matchline)$/;"	f
+JumpFinder	bundle/Command-T/ruby/command-t/finder/jump_finder.rb	/^  class JumpFinder < Finder$/;"	c	class:CommandT
+JumpScanner	bundle/Command-T/ruby/command-t/scanner/jump_scanner.rb	/^  class JumpScanner < Scanner$/;"	c	class:CommandT
+KeyMap.All	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.bind	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:KeyMap.bind()$/;"	f
+LDSHARED	bundle/Command-T/ruby/command-t/Makefile	/^LDSHARED = $(CC) -shared$/;"	m
+LIBPATH	bundle/Command-T/ruby/command-t/Makefile	/^LIBPATH =  -L. -L$(libdir)$/;"	m
+LIBRUBY	bundle/Command-T/ruby/command-t/Makefile	/^LIBRUBY = $(LIBRUBY_SO)$/;"	m
+LIBRUBYARG_SHARED	bundle/Command-T/ruby/command-t/Makefile	/^LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)$/;"	m
+LIBRUBYARG_STATIC	bundle/Command-T/ruby/command-t/Makefile	/^LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static$/;"	m
+LIBRUBY_A	bundle/Command-T/ruby/command-t/Makefile	/^LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a$/;"	m
+LIBS	bundle/Command-T/ruby/command-t/Makefile	/^LIBS = $(LIBRUBYARG_SHARED)  -lpthread -lrt -ldl -lcrypt -lm   -lc$/;"	m
+LOCAL_LIBS	bundle/Command-T/ruby/command-t/Makefile	/^LOCAL_LIBS = $/;"	m
+MAKEDIRS	bundle/Command-T/ruby/command-t/Makefile	/^MAKEDIRS = mkdir -p$/;"	m
+ManualCompletionEnter	bundle/supertab/plugin/supertab.vim	/^function! s:ManualCompletionEnter()$/;"	f
+Map	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Map() "{{{$/;"	f
+MatchDebug	bundle/matchit/plugin/matchit.vim	/^  command! -nargs=0 MatchDebug call s:Match_debug()$/;"	c
+MatchWindow	bundle/Command-T/ruby/command-t/match_window.rb	/^  class MatchWindow$/;"	c	class:CommandT
+Match_debug	bundle/matchit/plugin/matchit.vim	/^fun! s:Match_debug()$/;"	f
+Match_wrapper	bundle/matchit/plugin/matchit.vim	/^function! s:Match_wrapper(word, forward, mode) range$/;"	f
+MenuController.New	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+MultiMatch	bundle/matchit/plugin/matchit.vim	/^fun! s:MultiMatch(spflag, mode)$/;"	f
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTree :call s:initNerdTree('<args>')$/;"	c
+NERDTreeAddKeyMap	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddSubmenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeClose	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeClose :call s:closeTreeIfOpen()$/;"	c
+NERDTreeCopyNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeFind	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeFind call s:findAndRevealPath()$/;"	c
+NERDTreeFromBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=1 -complete=customlist,s:completeBookmarks -bar NERDTreeFromBookmark call s:initNerdTree('<args>')$/;"	c
+NERDTreeHijackNetrw	bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMirror	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=0 -bar NERDTreeMirror call s:initNerdTreeMirror()$/;"	c
+NERDTreeMoveNode	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeRender	bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeToggle	bundle/nerdtree/plugin/NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTreeToggle :call s:toggle('<args>')$/;"	c
+NoAutoClose	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:NoAutoClose() "{{{$/;"	f
+OBJS	bundle/Command-T/ruby/command-t/Makefile	/^OBJS = match.o matcher.o ext.o$/;"	m
+PLUGIN	bundle/delimitMate/Makefile	/^PLUGIN=$(shell basename "$$PWD")$/;"	m
+ParseSkip	bundle/matchit/plugin/matchit.vim	/^fun! s:ParseSkip(str)$/;"	f
+ParseWords	bundle/matchit/plugin/matchit.vim	/^fun! s:ParseWords(groups)$/;"	f
+Path.AbsolutePathFor	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.New(path)$/;"	f
+Path.Slash	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._str	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.cacheDisplayString()$/;"	f
+Path.changeToDir	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.delete	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.displayString()$/;"	f
+Path.equals	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.readInfoFromDisk	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.refresh()$/;"	f
+Path.rename	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:Path.strTrunk()$/;"	f
+PathUtilities	bundle/Command-T/ruby/command-t/vim/path_utilities.rb	/^    module PathUtilities$/;"	m	class:CommandT.VIM
+ProcessFile	bundle/snipmate/plugin/snipMate.vim	/^fun! s:ProcessFile(file, ft, ...)$/;"	f
+ProcessSnippet	bundle/snipmate/autoload/snipMate.vim	/^fun! s:ProcessSnippet(snip)$/;"	f
+Prompt	bundle/Command-T/ruby/command-t/prompt.rb	/^  class Prompt$/;"	c	class:CommandT
+RARRAY_LEN	bundle/Command-T/ruby/command-t/ruby_compat.h	43;"	d
+RARRAY_PTR	bundle/Command-T/ruby/command-t/ruby_compat.h	38;"	d
+RFLOAT_VALUE	bundle/Command-T/ruby/command-t/ruby_compat.h	48;"	d
+RM	bundle/Command-T/ruby/command-t/Makefile	/^RM = rm -f$/;"	m
+RSTRING_LEN	bundle/Command-T/ruby/command-t/ruby_compat.h	33;"	d
+RSTRING_PTR	bundle/Command-T/ruby/command-t/ruby_compat.h	28;"	d
+RUBY	bundle/Command-T/ruby/command-t/Makefile	/^RUBY = $(ruby)$/;"	m
+RUBYARCHDIR	bundle/Command-T/ruby/command-t/Makefile	/^RUBYARCHDIR   = $(sitearchdir)$(target_prefix)$/;"	m
+RUBYCOMMONDIR	bundle/Command-T/ruby/command-t/Makefile	/^RUBYCOMMONDIR = $(sitedir)$(target_prefix)$/;"	m
+RUBYLIBDIR	bundle/Command-T/ruby/command-t/Makefile	/^RUBYLIBDIR    = $(sitelibdir)$(target_prefix)$/;"	m
+RUBY_EXTCONF_H	bundle/Command-T/ruby/command-t/Makefile	/^RUBY_EXTCONF_H = $/;"	m
+RUBY_INSTALL_NAME	bundle/Command-T/ruby/command-t/Makefile	/^RUBY_INSTALL_NAME = ruby1.8$/;"	m
+RUBY_SO_NAME	bundle/Command-T/ruby/command-t/Makefile	/^RUBY_SO_NAME = ruby1.8$/;"	m
+Ref	bundle/matchit/plugin/matchit.vim	/^fun! s:Ref(string, d, ...)$/;"	f
+ReleaseKeyPresses	bundle/supertab/plugin/supertab.vim	/^function! s:ReleaseKeyPresses()$/;"	f
+RemoveSnippet	bundle/snipmate/autoload/snipMate.vim	/^fun! s:RemoveSnippet()$/;"	f
+RepeatLast	bundle/delimitMate/autoload/delimitMateTests.vim	/^	function! RepeatLast(name, output, ...) " {{{$/;"	f
+Resolve	bundle/matchit/plugin/matchit.vim	/^fun! s:Resolve(source, target, output)$/;"	f
+RetabSnip	bundle/snipmate/ftplugin/snippet.vim	/^command! -buffer -range=% RetabSnip <line1>,<line2>call snipMate#RetabSnip()$/;"	c
+Runner	bundle/Command-T/spec/vim_formatter.rb	/^  module Runner$/;"	m	class:Spec
+SCRIPT	bundle/delimitMate/Makefile	/^SCRIPT=$(wildcard plugin\/*.vim)$/;"	m
+SHELL	bundle/Command-T/ruby/command-t/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	bundle/supertab/Makefile	/^SHELL=\/bin\/bash$/;"	m
+SRCS	bundle/Command-T/ruby/command-t/Makefile	/^SRCS = match.c matcher.c ext.c$/;"	m
+STATIC_LIB	bundle/Command-T/ruby/command-t/Makefile	/^STATIC_LIB = $/;"	m
+Scanner	bundle/Command-T/ruby/command-t/scanner.rb	/^  class Scanner; end$/;"	c	class:CommandT
+Screen	bundle/Command-T/ruby/command-t/vim/screen.rb	/^    module Screen$/;"	m	class:CommandT.VIM
+SelectCompletion	bundle/supertab/plugin/supertab.vim	/^    function! s:SelectCompletion(cr)$/;"	f
+SelectWord	bundle/snipmate/autoload/snipMate.vim	/^fun! s:SelectWord()$/;"	f
+SetCompletionType	bundle/supertab/plugin/supertab.vim	/^function! s:SetCompletionType()$/;"	f
+SetDefaultCompletionType	bundle/supertab/plugin/supertab.vim	/^function! s:SetDefaultCompletionType()$/;"	f
+Settings	bundle/Command-T/ruby/command-t/settings.rb	/^  class Settings$/;"	c	class:CommandT
+ShowAvailableSnips	bundle/snipmate/plugin/snipMate.vim	/^fun! ShowAvailableSnips()$/;"	f
+SnipMateOpenSnippetFiles	bundle/snipmate/plugin/snipMateInterface.vim	/^command! SnipMateOpenSnippetFiles call snipMate#OpenSnippetFiles()$/;"	c
+Snippet_Camelcase	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_Camelcase(s)$/;"	f
+Snippet_JavaClassNameFromFilename	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_JavaClassNameFromFilename(...)$/;"	f
+Snippet_JavaInstanceVarType	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_JavaInstanceVarType(name)$/;"	f
+Snippet_MigrationNameFromFilename	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_MigrationNameFromFilename(...)$/;"	f
+Snippet_Modeline	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_Modeline()$/;"	f
+Snippet_PHPClassNameFromFilename	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_PHPClassNameFromFilename(...)$/;"	f
+Snippet_PythonClassNameFromFilename	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_PythonClassNameFromFilename(...)$/;"	f
+Snippet_RubyClassNameFromFilename	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_RubyClassNameFromFilename(...)$/;"	f
+Snippet_RubySpecNameFromFilename	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_RubySpecNameFromFilename(...)$/;"	f
+Snippet_Underscore	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! Snippet_Underscore(s)$/;"	f
+Spec	bundle/Command-T/spec/vim_formatter.rb	/^module Spec$/;"	m
+Stub	bundle/Command-T/ruby/command-t/stub.rb	/^  class Stub$/;"	c	class:CommandT
+SuperTab	bundle/supertab/plugin/supertab.vim	/^function! s:SuperTab(command)$/;"	f
+SuperTabAlternateCompletion	bundle/supertab/plugin/supertab.vim	/^function! SuperTabAlternateCompletion(type)$/;"	f
+SuperTabHelp	bundle/supertab/plugin/supertab.vim	/^    command SuperTabHelp :call <SID>SuperTabHelp()$/;"	c
+SuperTabHelp	bundle/supertab/plugin/supertab.vim	/^function! s:SuperTabHelp()$/;"	f
+SuperTabLongestHighlight	bundle/supertab/plugin/supertab.vim	/^function! SuperTabLongestHighlight(dir)$/;"	f
+SuperTabSetCompletionType	bundle/supertab/plugin/supertab.vim	/^function! SuperTabSetCompletionType(type)$/;"	f
+SuperTabSetDefaultCompletionType	bundle/supertab/plugin/supertab.vim	/^function! SuperTabSetDefaultCompletionType(type)$/;"	f
+TARGET	bundle/Command-T/ruby/command-t/Makefile	/^TARGET = ext$/;"	m
+TARGET_SO	bundle/Command-T/ruby/command-t/Makefile	/^TARGET_SO     = $(DLLIB)$/;"	m
+TESTS	bundle/delimitMate/Makefile	/^TESTS=$(wildcard autoload\/*Tests.vim)$/;"	m
+TagList_IsValid	bundle/tag_list/plugin/taglist.vim	/^function! TagList_IsValid()$/;"	f
+TagList_Start	bundle/tag_list/plugin/taglist.vim	/^function! TagList_Start()$/;"	f
+TagList_WrapUp	bundle/tag_list/plugin/taglist.vim	/^function! TagList_WrapUp()$/;"	f
+TagList_title	bundle/tag_list/plugin/taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v
+TestMappingsDo	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:TestMappingsDo() "{{{$/;"	f
+Tlist	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c
+TlistAddFiles	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c
+TlistAddFilesRecursive	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c
+TlistClose	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c
+TlistDebug	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c
+TlistHighlightTag	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c
+TlistLock	bundle/tag_list/plugin/taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c
+TlistMessages	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c
+TlistOpen	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c
+TlistSessionLoad	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c
+TlistSessionSave	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c
+TlistShowPrototype	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c
+TlistShowTag	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c
+TlistSync	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c
+TlistToggle	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c
+TlistUndebug	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c
+TlistUnlock	bundle/tag_list/plugin/taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c
+TlistUpdate	bundle/tag_list/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c
+Tlist_Add_Files	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f
+Tlist_Add_Files_Recursive	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f
+Tlist_Auto_Highlight_Tag	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v
+Tlist_Auto_Open	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v
+Tlist_Auto_Update	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v
+Tlist_Ballon_Expr	bundle/tag_list/plugin/taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f
+Tlist_Buffer_Removed	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f
+Tlist_Change_Sort	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f
+Tlist_Close_On_Select	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v
+Tlist_Compact_Format	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v
+Tlist_Ctags_Cmd	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v
+Tlist_Ctags_Cmd	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v
+Tlist_Ctags_Cmd	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v
+Tlist_Ctags_Cmd	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v
+Tlist_Ctags_Cmd	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v
+Tlist_Debug_Disable	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f
+Tlist_Debug_Enable	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f
+Tlist_Debug_Show	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f
+Tlist_Detect_Filetype	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f
+Tlist_Discard_FileInfo	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f
+Tlist_Discard_TagInfo	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f
+Tlist_Display_Prototype	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v
+Tlist_Display_Tag_Scope	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v
+Tlist_Enable_Fold_Column	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v
+Tlist_Exe_Cmd_No_Acmds	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f
+Tlist_Exit_OnlyWindow	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v
+Tlist_Extract_Tag_Scope	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f
+Tlist_Extract_Tagtype	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f
+Tlist_FileType_Init	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f
+Tlist_File_Fold_Auto_Close	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v
+Tlist_Find_Nearest_Tag_Idx	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f
+Tlist_GainFocus_On_ToggleOpen	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v
+Tlist_Get_Buffer_Filetype	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f
+Tlist_Get_File_Index	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f
+Tlist_Get_Tag_Linenum	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype_By_Line	bundle/tag_list/plugin/taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f
+Tlist_Get_Tag_SearchPat	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Type_By_Tag	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f
+Tlist_Get_Tagname_By_Line	bundle/tag_list/plugin/taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f
+Tlist_Highlight_Tag_On_BufEnter	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v
+Tlist_Inc_Winwidth	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v
+Tlist_Inc_Winwidth	bundle/tag_list/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v
+Tlist_Init_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f
+Tlist_Log_Msg	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f
+Tlist_Max_Submenu_Items	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v
+Tlist_Max_Tag_Length	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v
+Tlist_Menu_Add_Base_Menu	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f
+Tlist_Menu_File_Refresh	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f
+Tlist_Menu_Get_Tag_Type_Cmd	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f
+Tlist_Menu_Init	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f
+Tlist_Menu_Jump_To_Tag	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f
+Tlist_Menu_Refresh	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f
+Tlist_Menu_Remove_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f
+Tlist_Menu_Update_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f
+Tlist_Parse_Tagline	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f
+Tlist_Post_Close_Cleanup	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f
+Tlist_Process_Dir	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f
+Tlist_Process_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f
+Tlist_Process_File_Always	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v
+Tlist_Process_Filelist	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f
+Tlist_Refresh	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Refresh()$/;"	f
+Tlist_Refresh_Folds	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f
+Tlist_Remove_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f
+Tlist_Session_Load	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f
+Tlist_Session_Save	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f
+Tlist_Set_App	bundle/tag_list/plugin/taglist.vim	/^function! Tlist_Set_App(name)$/;"	f
+Tlist_Show_Menu	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v
+Tlist_Show_One_File	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v
+Tlist_Skip_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f
+Tlist_Sort_Type	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v
+Tlist_Update_Current_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f
+Tlist_Update_File	bundle/tag_list/plugin/taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f
+Tlist_Update_Remove_List	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f
+Tlist_Use_Horiz_Window	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v
+Tlist_Use_Right_Window	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v
+Tlist_Use_SingleClick	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v
+Tlist_User_Removed_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f
+Tlist_Vim_Session_Load	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f
+Tlist_Warning_Msg	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f
+Tlist_WinHeight	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v
+Tlist_WinWidth	bundle/tag_list/plugin/taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v
+Tlist_Window_Check_Auto_Open	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f
+Tlist_Window_Check_Width	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f
+Tlist_Window_Close	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f
+Tlist_Window_Create	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f
+Tlist_Window_Display_Help	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f
+Tlist_Window_Exit_Only_Window	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f
+Tlist_Window_Get_File_Index_By_Linenum	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f
+Tlist_Window_Get_Tag_Index	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f
+Tlist_Window_Get_Tag_Type_By_Linenum	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f
+Tlist_Window_Goto_Window	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f
+Tlist_Window_Highlight_Line	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f
+Tlist_Window_Highlight_Tag	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f
+Tlist_Window_Init	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f
+Tlist_Window_Jump_To_Tag	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f
+Tlist_Window_Mark_File_Window	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f
+Tlist_Window_Move_To_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f
+Tlist_Window_Open	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f
+Tlist_Window_Open_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f
+Tlist_Window_Open_File_Fold	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f
+Tlist_Window_Refresh	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f
+Tlist_Window_Refresh_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f
+Tlist_Window_Remove_File_From_Display	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f
+Tlist_Window_Show_Info	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f
+Tlist_Window_Toggle	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f
+Tlist_Window_Toggle_Help_Text	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f
+Tlist_Window_Update_File	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f
+Tlist_Window_Update_Line_Offsets	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f
+Tlist_Window_Zoom	bundle/tag_list/plugin/taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f
+TreeDirNode.AbsoluteTreeRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openRecursively2	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.activate(forceKeepWinOpen)$/;"	f
+TreeDirNode.addChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.open()$/;"	f
+TreeDirNode.openExplorer	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.removeChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.toggleOpen()$/;"	f
+TreeDirNode.transplantChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetRootLineNum	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.GetRootLineNum()$/;"	f
+TreeFileNode.GetSelected	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.activate(forceKeepWinOpen)$/;"	f
+TreeFileNode.bookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBoomarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.clearBoomarks()$/;"	f
+TreeFileNode.copy	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.getLineNum	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.getLineNum()$/;"	f
+TreeFileNode.isRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.open()$/;"	f
+TreeFileNode.openInNewTab	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.rename	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+TriggerSnippet	bundle/snipmate/plugin/snipMate.vim	/^fun! TriggerSnippet()$/;"	f
+Type	bundle/delimitMate/autoload/delimitMateTests.vim	/^	function! Type(name, input, output, options, ...) " {{{$/;"	f
+Unmap	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Unmap() " {{{$/;"	f
+UpdateChangedSnip	bundle/snipmate/autoload/snipMate.vim	/^fun! s:UpdateChangedSnip(entering)$/;"	f
+UpdatePlaceholderTabStops	bundle/snipmate/autoload/snipMate.vim	/^fun! s:UpdatePlaceholderTabStops()$/;"	f
+UpdateTabStops	bundle/snipmate/autoload/snipMate.vim	/^fun! s:UpdateTabStops()$/;"	f
+UpdateVars	bundle/snipmate/autoload/snipMate.vim	/^fun! s:UpdateVars()$/;"	f
+VERSION	bundle/delimitMate/Makefile	/^VERSION=$(shell perl -ne 'if (\/\\*\\sCurrent\\srelease:\/) {s\/^\\s+(\\d+\\.\\S+)\\s.*$$\/\\1\/;print}' $(DOC))$/;"	m
+VIM	bundle/Command-T/ruby/command-t/vim.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/Command-T/ruby/command-t/vim/path_utilities.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/Command-T/ruby/command-t/vim/screen.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/Command-T/ruby/command-t/vim/window.rb	/^  module VIM$/;"	m	class:CommandT
+VIM	bundle/Command-T/spec/command-t/controller_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/Command-T/spec/command-t/finder/buffer_finder_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/Command-T/spec/command-t/finder/file_finder_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/Command-T/spec/command-t/scanner/buffer_scanner_spec.rb	/^module VIM$/;"	m
+VIM	bundle/Command-T/spec/command-t/scanner/file_scanner_spec.rb	/^module VIM; end$/;"	m
+VIM	bundle/delimitMate/Makefile	/^VIM=\/usr\/bin\/vim$/;"	m
+VIMFOLDER	bundle/delimitMate/Makefile	/^VIMFOLDER=~\/.vim\/$/;"	m
+VPATH	bundle/Command-T/ruby/command-t/Makefile	/^VPATH = $(srcdir):$(topdir):$(hdrdir)$/;"	m
+VimFormatter	bundle/Command-T/spec/vim_formatter.rb	/^      class VimFormatter < BaseTextFormatter$/;"	c	class:Spec.Runner.Formatter
+VimScriptDef	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^class VimScriptDef$/;"	c
+VimScriptUploader	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^class VimScriptUploader$/;"	c
+Vimball	bundle/Command-T/vendor/vimball/vimball.rb	/^class Vimball$/;"	c
+Wholematch	bundle/matchit/plugin/matchit.vim	/^fun! s:Wholematch(string, pat, start)$/;"	f
+WillComplete	bundle/supertab/plugin/supertab.vim	/^function! s:WillComplete()$/;"	f
+Window	bundle/Command-T/ruby/command-t/vim/window.rb	/^    class Window$/;"	c	class:CommandT.VIM
+[%	bundle/matchit/plugin/matchit.vim	/^nnoremap <silent> [% :<C-U>call <SID>MultiMatch("bW", "n") <CR>$/;"	m
+[%	bundle/matchit/plugin/matchit.vim	/^onoremap <silent> [% v:<C-U>call <SID>MultiMatch("bW", "o") <CR>$/;"	m
+[%	bundle/matchit/plugin/matchit.vim	/^vmap [% <Esc>[%m'gv``$/;"	m
+]%	bundle/matchit/plugin/matchit.vim	/^nnoremap <silent> ]% :<C-U>call <SID>MultiMatch("W",  "n") <CR>$/;"	m
+]%	bundle/matchit/plugin/matchit.vim	/^onoremap <silent> ]% v:<C-U>call <SID>MultiMatch("W",  "o") <CR>$/;"	m
+]%	bundle/matchit/plugin/matchit.vim	/^vmap ]% <Esc>]%m'gv``$/;"	m
+a%	bundle/matchit/plugin/matchit.vim	/^vmap a% <Esc>[%v]%$/;"	m
+abbrev_len	bundle/Command-T/ruby/command-t/match.c	/^    long    abbrev_len;             \/\/ length of same$/;"	m	struct:__anon1	file:
+abbrev_p	bundle/Command-T/ruby/command-t/match.c	/^    char    *abbrev_p;              \/\/ pointer to search string (abbreviation)$/;"	m	struct:__anon1	file:
+abbrev_segments	bundle/Command-T/ruby/command-t/prompt.rb	/^    def abbrev_segments$/;"	f	class:CommandT.Prompt
+accept_selection	bundle/Command-T/ruby/command-t/controller.rb	/^    def accept_selection options = {}$/;"	f	class:CommandT.Controller
+activateNode	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:activateNode(forceKeepWindowOpen)$/;"	f
+add!	bundle/Command-T/ruby/command-t/match_window.rb	/^    def add! char$/;"	f	class:CommandT.MatchWindow
+add!	bundle/Command-T/ruby/command-t/prompt.rb	/^    def add! char$/;"	f	class:CommandT.Prompt
+add_paths_for_directory	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    def add_paths_for_directory dir, accumulator$/;"	f	class:CommandT.FileScanner
+always_show_dot_files	bundle/Command-T/ruby/command-t/match.c	/^    int     always_show_dot_files;  \/\/ boolean$/;"	m	struct:__anon1	file:
+arch	bundle/Command-T/ruby/command-t/Makefile	/^arch = x86_64-linux$/;"	m
+archdir	bundle/Command-T/ruby/command-t/Makefile	/^archdir = $(rubylibdir)\/$(arch)$/;"	m
+archflag	bundle/Command-T/ruby/command-t/Makefile	/^archflag = $/;"	m
+backspace	bundle/Command-T/ruby/command-t/controller.rb	/^    def backspace$/;"	f	class:CommandT.Controller
+backspace!	bundle/Command-T/ruby/command-t/match_window.rb	/^    def backspace!$/;"	f	class:CommandT.MatchWindow
+backspace!	bundle/Command-T/ruby/command-t/prompt.rb	/^    def backspace!$/;"	f	class:CommandT.Prompt
+bindMappings	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:bindMappings()$/;"	f
+bindir	bundle/Command-T/ruby/command-t/Makefile	/^bindir = $(exec_prefix)\/bin$/;"	m
+bookmarkNode	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:bookmarkNode(name)$/;"	f
+bufInWindows	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:bufInWindows(bnum)$/;"	f
+buf_utils#GotoBuf	bundle/vim-addon-mw-utils/autoload/buf_utils.vim	/^fun! buf_utils#GotoBuf(buf_identifier, opts)$/;"	f
+buffer	bundle/Command-T/spec/command-t/scanner/buffer_scanner_spec.rb	/^  def buffer name$/;"	f
+buffer_finder	bundle/Command-T/ruby/command-t/controller.rb	/^    def buffer_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+build_quietly	bundle/Command-T/multi-spec.sh	/^function build_quietly()$/;"	f
+cCommandTMatch	bundle/Command-T/ruby/command-t/ext.c	/^VALUE cCommandTMatch    = 0; \/\/ class CommandT::Match$/;"	v
+cCommandTMatcher	bundle/Command-T/ruby/command-t/ext.c	/^VALUE cCommandTMatcher  = 0; \/\/ class CommandT::Matcher$/;"	v
+cached_file_contents#CachedFileContents	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^function! cached_file_contents#CachedFileContents(file, func, ...) abort$/;"	f
+cached_file_contents#ClearScanCache	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^fun! cached_file_contents#ClearScanCache()$/;"	f
+cached_file_contents#Test	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^fun! cached_file_contents#Test()$/;"	f
+cancel	bundle/Command-T/ruby/command-t/controller.rb	/^    def cancel$/;"	f	class:CommandT.Controller
+capture	bundle/Command-T/ruby/command-t/vim.rb	/^    def self.capture cmd$/;"	F	class:CommandT.VIM
+centerView	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:centerView()$/;"	f
+cfiles	bundle/Command-T/Makefile	/^cfiles      := $(shell find ruby -name '*.c')$/;"	m
+chCwd	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:chCwd()$/;"	f
+chRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:chRoot()$/;"	f
+cheaders	bundle/Command-T/Makefile	/^cheaders    := $(shell find ruby -name '*.h')$/;"	m
+checkForActivate	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:checkForActivate()$/;"	f
+checkForBrowse	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:checkForBrowse(dir)$/;"	f
+check_ruby_1_9_2	bundle/Command-T/spec/command-t/controller_spec.rb	/^  def check_ruby_1_9_2$/;"	f
+clean_filename	bundle/Command-T/vendor/vimball/vimball.rb	/^    def clean_filename(filename)$/;"	f
+clear	bundle/Command-T/ruby/command-t/controller.rb	/^    def clear$/;"	f	class:CommandT.Controller
+clear	bundle/Command-T/ruby/command-t/match_window.rb	/^    def clear$/;"	f	class:CommandT.MatchWindow
+clear!	bundle/Command-T/ruby/command-t/prompt.rb	/^    def clear!$/;"	f	class:CommandT.Prompt
+clearBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:clearBookmarks(bookmarks)$/;"	f
+close	bundle/Command-T/ruby/command-t/match_window.rb	/^    def close$/;"	f	class:CommandT.MatchWindow
+closeChildren	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeChildren()$/;"	f
+closeCurrentDir	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeCurrentDir()$/;"	f
+closeTree	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTree()$/;"	f
+closeTreeIfOpen	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTreeIfOpen()$/;"	f
+closeTreeIfQuitOnOpen	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTreeIfQuitOnOpen()$/;"	f
+closeTreeWindow	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:closeTreeWindow()$/;"	f
+comp_alpha	bundle/Command-T/ruby/command-t/matcher.c	/^int comp_alpha(const void *a, const void *b)$/;"	f
+comp_score	bundle/Command-T/ruby/command-t/matcher.c	/^int comp_score(const void *a, const void *b)$/;"	f
+compareBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:compareBookmarks(first, second)$/;"	f
+compareNodes	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:compareNodes(n1, n2)$/;"	f
+completeBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:completeBookmarks(A,L,P)$/;"	f
+cr	bundle/supertab/plugin/supertab.vim	/^      let cr = (map =~? '\\(^\\|[^)]\\)<cr>')$/;"	v
+createTreeWin	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:createTreeWin()$/;"	f
+ctrl_n	bundle/supertab/plugin/supertab.vim	/^    let ctrl_n = substitute(ctrl_n, '<', '<lt>', 'g')$/;"	v
+ctrl_n	bundle/supertab/plugin/supertab.vim	/^  let ctrl_n = maparg('<c-n>', 'i')$/;"	v
+ctrl_p	bundle/supertab/plugin/supertab.vim	/^    let ctrl_p = substitute(ctrl_p, '<', '<lt>', 'g')$/;"	v
+ctrl_p	bundle/supertab/plugin/supertab.vim	/^  let ctrl_p = maparg('<c-p>', 'i')$/;"	v
+cursor_end	bundle/Command-T/ruby/command-t/controller.rb	/^    def cursor_end$/;"	f	class:CommandT.Controller
+cursor_end	bundle/Command-T/ruby/command-t/prompt.rb	/^    def cursor_end$/;"	f	class:CommandT.Prompt
+cursor_left	bundle/Command-T/ruby/command-t/controller.rb	/^    def cursor_left$/;"	f	class:CommandT.Controller
+cursor_left	bundle/Command-T/ruby/command-t/prompt.rb	/^    def cursor_left$/;"	f	class:CommandT.Prompt
+cursor_right	bundle/Command-T/ruby/command-t/controller.rb	/^    def cursor_right$/;"	f	class:CommandT.Controller
+cursor_right	bundle/Command-T/ruby/command-t/prompt.rb	/^    def cursor_right$/;"	f	class:CommandT.Prompt
+cursor_start	bundle/Command-T/ruby/command-t/controller.rb	/^    def cursor_start$/;"	f	class:CommandT.Controller
+cursor_start	bundle/Command-T/ruby/command-t/prompt.rb	/^    def cursor_start$/;"	f	class:CommandT.Prompt
+datadir	bundle/Command-T/ruby/command-t/Makefile	/^datadir = $(datarootdir)$/;"	m
+datarootdir	bundle/Command-T/ruby/command-t/Makefile	/^datarootdir = $(prefix)\/share$/;"	m
+default_open_command	bundle/Command-T/ruby/command-t/controller.rb	/^    def default_open_command$/;"	f	class:CommandT.Controller
+delete	bundle/Command-T/ruby/command-t/controller.rb	/^    def delete$/;"	f	class:CommandT.Controller
+delete!	bundle/Command-T/ruby/command-t/prompt.rb	/^    def delete!$/;"	f	class:CommandT.Prompt
+deleteBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:deleteBookmark()$/;"	f
+delimitMate	bundle/delimitMate/plugin/delimitMate.vim	/^augroup delimitMate$/;"	a
+delimitMate#BS	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#BS() " {{{$/;"	f
+delimitMate#BalancedParens	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#BalancedParens(char) "{{{$/;"	f
+delimitMate#Del	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Del() " {{{$/;"	f
+delimitMate#ExpandReturn	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandReturn() "{{{$/;"	f
+delimitMate#ExpandSpace	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandSpace() "{{{$/;"	f
+delimitMate#Finish	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Finish(move_back) " {{{$/;"	f
+delimitMate#FlushBuffer	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#FlushBuffer() " {{{$/;"	f
+delimitMate#GetCurrentSyntaxRegion	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#GetCurrentSyntaxRegion() "{{{$/;"	f
+delimitMate#GetCurrentSyntaxRegionIf	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#GetCurrentSyntaxRegionIf(char) "{{{$/;"	f
+delimitMate#GetSyntaxRegion	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#GetSyntaxRegion(line, col) "{{{$/;"	f
+delimitMate#IsCRExpansion	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsCRExpansion() " {{{$/;"	f
+delimitMate#IsEmptyPair	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsEmptyPair(str) "{{{$/;"	f
+delimitMate#IsForbidden	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsForbidden(char) "{{{$/;"	f
+delimitMate#IsSpaceExpansion	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsSpaceExpansion() " {{{$/;"	f
+delimitMate#JumpAny	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpAny(key) " {{{$/;"	f
+delimitMate#JumpMany	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpMany() " {{{$/;"	f
+delimitMate#JumpOut	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpOut(char) "{{{$/;"	f
+delimitMate#OptionsList	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#OptionsList() "{{{$/;"	f
+delimitMate#ParenDelim	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ParenDelim(char) " {{{$/;"	f
+delimitMate#QuoteDelim	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#QuoteDelim(char) "{{{$/;"	f
+delimitMate#RmBuffer	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#RmBuffer(num) " {{{$/;"	f
+delimitMate#ShouldJump	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ShouldJump() "{{{$/;"	f
+delimitMate#SkipDelim	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#SkipDelim(char) "{{{$/;"	f
+delimitMate#TestMappings	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#TestMappings() "{{{$/;"	f
+delimitMate#WithinEmptyPair	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#WithinEmptyPair() "{{{$/;"	f
+delimitMate#WriteAfter	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#WriteAfter(str) "{{{$/;"	f
+delimitMate#WriteBefore	bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#WriteBefore(str) "{{{$/;"	f
+delimitMateTests#Main	bundle/delimitMate/autoload/delimitMateTests.vim	/^function! delimitMateTests#Main()$/;"	f
+delimitMate_loaded	bundle/delimitMate/autoload/delimitMate.vim	/^let delimitMate_loaded = 1$/;"	v
+delimitMate_version	bundle/delimitMate/plugin/delimitMate.vim	/^let delimitMate_version = "2.6"$/;"	v
+depends	bundle/Command-T/Makefile	/^depends     := $(shell find ruby -name depend)$/;"	m
+displayHelp	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:displayHelp()$/;"	f
+dispose	bundle/Command-T/ruby/command-t/prompt.rb	/^    def dispose$/;"	f	class:CommandT.Prompt
+dldflags	bundle/Command-T/ruby/command-t/Makefile	/^dldflags = $/;"	m
+do_install	bundle/Command-T/vendor/vimball/vimball.rb	/^    def do_install(file)$/;"	f
+do_list	bundle/Command-T/vendor/vimball/vimball.rb	/^    def do_list(file)$/;"	f
+do_vba	bundle/Command-T/vendor/vimball/vimball.rb	/^    def do_vba(recipe)$/;"	f
+docdir	bundle/Command-T/ruby/command-t/Makefile	/^docdir = $(datarootdir)\/doc\/$(PACKAGE)$/;"	m
+dot_file	bundle/Command-T/ruby/command-t/match.c	/^    int     dot_file;               \/\/ boolean: true if str is a dot-file$/;"	m	struct:__anon1	file:
+dumpHelp	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:dumpHelp()$/;"	f
+dump_failure	bundle/Command-T/spec/vim_formatter.rb	/^        def dump_failure counter, failure$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+dump_pending	bundle/Command-T/spec/vim_formatter.rb	/^        def dump_pending; end$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+dump_summary	bundle/Command-T/spec/vim_formatter.rb	/^        def dump_summary duration, example_count, failure_count, pending_count$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+dvidir	bundle/Command-T/ruby/command-t/Makefile	/^dvidir = $(docdir)$/;"	m
+echo	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echo	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:echo(msg)$/;"	f
+echoError	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:echoError(msg)$/;"	f
+echoWarning	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
+echoWarning	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:echoWarning(msg)$/;"	f
+end_comment	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! s:end_comment()$/;"	f
+ensure_appropriate_window_selection	bundle/Command-T/ruby/command-t/controller.rb	/^    def ensure_appropriate_window_selection$/;"	f	class:CommandT.Controller
+ensure_cache_under_limit	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    def ensure_cache_under_limit$/;"	f	class:CommandT.FileScanner
+ensure_dir_exists	bundle/Command-T/vendor/vimball/vimball.rb	/^    def ensure_dir_exists(dir)$/;"	f
+env_reload#ReloadEnv	bundle/vim-addon-mw-utils/autoload/env_reload.vim	/^fun! env_reload#ReloadEnv(bash_export_command_output)$/;"	f
+escape_for_single_quotes	bundle/Command-T/ruby/command-t/vim.rb	/^    def self.escape_for_single_quotes str$/;"	F	class:CommandT.VIM
+exec	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:exec(cmd)$/;"	f
+exec_prefix	bundle/Command-T/ruby/command-t/Makefile	/^exec_prefix = $(prefix)$/;"	m
+exists?	bundle/Command-T/ruby/command-t/controller.rb	/^    def exists? name$/;"	f	class:CommandT.Controller
+extout	bundle/Command-T/ruby/command-t/Makefile	/^extout = $/;"	m
+extout_prefix	bundle/Command-T/ruby/command-t/Makefile	/^extout_prefix = $/;"	m
+file_finder	bundle/Command-T/ruby/command-t/controller.rb	/^    def file_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+file_write	bundle/Command-T/vendor/vimball/vimball.rb	/^    def file_write(filename, mode='w', &block)$/;"	f
+filename_on_disk	bundle/Command-T/vendor/vimball/vimball.rb	/^    def filename_on_disk(name, file, filename)$/;"	f
+find	bundle/Command-T/ruby/command-t/match_window.rb	/^    def find char$/;"	f	class:CommandT.MatchWindow
+findAndRevealPath	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:findAndRevealPath()$/;"	f
+firstUsableWindow	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:firstUsableWindow()$/;"	f
+flush	bundle/Command-T/ruby/command-t/controller.rb	/^    def flush$/;"	f	class:CommandT.Controller
+flush	bundle/Command-T/ruby/command-t/finder.rb	/^    def flush$/;"	f	class:CommandT.Finder
+flush	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    def flush$/;"	f	class:CommandT.FileScanner
+focus	bundle/Command-T/ruby/command-t/match_window.rb	/^    def focus$/;"	f	class:CommandT.MatchWindow
+focus	bundle/Command-T/ruby/command-t/prompt.rb	/^    def focus$/;"	f	class:CommandT.Prompt
+funcref#Call	bundle/vim-addon-mw-utils/autoload/funcref.vim	/^function! funcref#Call(...)$/;"	f
+funcref#Function	bundle/vim-addon-mw-utils/autoload/funcref.vim	/^function! funcref#Function(name,...)$/;"	f
+g%	bundle/matchit/plugin/matchit.vim	/^nnoremap <silent> g% :<C-U>call <SID>Match_wrapper('',0,'n') <CR>$/;"	m
+g%	bundle/matchit/plugin/matchit.vim	/^onoremap <silent> g% v:<C-U>call <SID>Match_wrapper('',0,'o') <CR>$/;"	m
+g%	bundle/matchit/plugin/matchit.vim	/^vnoremap <silent> g% :<C-U>call <SID>Match_wrapper('',0,'v') <CR>m'gv``$/;"	m
+g:NERDTreeBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeDirNode	bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeFileNode	bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeIgnore	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreePath	bundle/nerdtree/plugin/NERD_tree.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreeSortOrder	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:SuperTabCompletionContexts	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCompletionContexts = ['s:ContextText']$/;"	v
+g:SuperTabContextDefaultCompletionType	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabContextDefaultCompletionType = "<c-p>"$/;"	v
+g:SuperTabCrClosePreview	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCrClosePreview = 0$/;"	v
+g:SuperTabCrMapping	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCrMapping = 1$/;"	v
+g:SuperTabDefaultCompletionType	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabDefaultCompletionType = "<c-p>"$/;"	v
+g:SuperTabLongestEnhanced	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabLongestEnhanced = 0$/;"	v
+g:SuperTabLongestHighlight	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabLongestHighlight = 0$/;"	v
+g:SuperTabMappingBackward	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingBackward = '<s-tab>'$/;"	v
+g:SuperTabMappingForward	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingForward = '<tab>'$/;"	v
+g:SuperTabMappingTabLiteral	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingTabLiteral = '<c-tab>'$/;"	v
+g:SuperTabNoCompleteAfter	bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteAfter = ['\\s']$/;"	v
+g:SuperTabNoCompleteAfter	bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteAfter = []$/;"	v
+g:SuperTabNoCompleteBefore	bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteBefore = ['\\k']$/;"	v
+g:SuperTabNoCompleteBefore	bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteBefore = []$/;"	v
+g:SuperTabRetainCompletionDuration	bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabRetainCompletionDuration = 'insert'$/;"	v
+g:command_t_loaded	bundle/Command-T/plugin/command-t.vim	/^let g:command_t_loaded = 1$/;"	v
+g:delimitMate_excluded_ft	bundle/delimitMate/autoload/delimitMateTests.vim	/^	let g:delimitMate_excluded_ft = "vim"$/;"	v
+g:loaded_delimitMate	bundle/delimitMate/plugin/delimitMate.vim	/^let g:loaded_delimitMate = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:loaded_pathogen	autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+g:snipMate	bundle/snipmate/autoload/snipMate.vim	/^  let g:snipMate = {}$/;"	v
+g:snipMate	bundle/snipmate/plugin/snipMate.vim	/^  let g:snipMate = {}$/;"	v
+g:snipMateSources	bundle/snipmate/plugin/snipMate.vim	/^  let g:snipMateSources = {}$/;"	v
+g:snips_trigger_key	bundle/snipmate/after/plugin/snipMate.vim	/^  let g:snips_trigger_key = '<tab>'$/;"	v
+getPath	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:getPath(ln)$/;"	f
+getTreeWinNum	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:getTreeWinNum()$/;"	f
+get_bool	bundle/Command-T/ruby/command-t/controller.rb	/^    def get_bool name$/;"	f	class:CommandT.Controller
+get_bool	bundle/Command-T/ruby/command-t/settings.rb	/^    def get_bool setting$/;"	f	class:CommandT.Settings
+get_cursor_highlight	bundle/Command-T/ruby/command-t/match_window.rb	/^    def get_cursor_highlight$/;"	f	class:CommandT.MatchWindow
+get_id	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^    def get_id$/;"	f
+get_installdir	bundle/Command-T/vendor/vimball/vimball.rb	/^    def get_installdir(vimball)$/;"	f
+get_list_or_string	bundle/Command-T/ruby/command-t/controller.rb	/^    def get_list_or_string name$/;"	f	class:CommandT.Controller
+get_number	bundle/Command-T/ruby/command-t/controller.rb	/^    def get_number name$/;"	f	class:CommandT.Controller
+get_number	bundle/Command-T/ruby/command-t/settings.rb	/^    def get_number setting$/;"	f	class:CommandT.Settings
+get_string	bundle/Command-T/ruby/command-t/controller.rb	/^    def get_string name$/;"	f	class:CommandT.Controller
+get_version	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^    def get_version$/;"	f
+gg	bundle/delimitMate/autoload/delimitMateTests.vim	/^	normal gg$/;"	m
+ggVG"_d	bundle/delimitMate/autoload/delimitMateTests.vim	/^	normal ggVG"_d$/;"	m
+glob#Glob	bundle/vim-addon-mw-utils/autoload/glob.vim	/^fun! glob#Glob(pattern, ...)$/;"	f
+handleMiddleMouse	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:handleMiddleMouse()$/;"	f
+handle_key	bundle/Command-T/ruby/command-t/controller.rb	/^    def handle_key$/;"	f	class:CommandT.Controller
+has_syntax	bundle/Command-T/ruby/command-t/vim.rb	/^    def self.has_syntax?$/;"	F	class:CommandT.VIM
+hdrdir	bundle/Command-T/ruby/command-t/Makefile	/^hdrdir = $(topdir)$/;"	m
+hide	bundle/Command-T/ruby/command-t/controller.rb	/^    def hide$/;"	f	class:CommandT.Controller
+hide_cursor	bundle/Command-T/ruby/command-t/match_window.rb	/^    def hide_cursor$/;"	f	class:CommandT.MatchWindow
+htmldir	bundle/Command-T/ruby/command-t/Makefile	/^htmldir = $(docdir)$/;"	m
+includedir	bundle/Command-T/ruby/command-t/Makefile	/^includedir = $(prefix)\/include$/;"	m
+indentLevelFor	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:indentLevelFor(line)$/;"	f
+infodir	bundle/Command-T/ruby/command-t/Makefile	/^infodir = $(prefix)\/share\/info$/;"	m
+init	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:init() "{{{$/;"	f
+initNerdTree	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initNerdTree(name)$/;"	f
+initNerdTreeInPlace	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initNerdTreeInPlace(dir)$/;"	f
+initNerdTreeMirror	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initNerdTreeMirror()$/;"	f
+initVariable	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+initialize	bundle/Command-T/ruby/command-t/controller.rb	/^    def initialize$/;"	f	class:CommandT.Controller
+initialize	bundle/Command-T/ruby/command-t/finder.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.Finder
+initialize	bundle/Command-T/ruby/command-t/finder/buffer_finder.rb	/^    def initialize$/;"	f	class:CommandT.BufferFinder
+initialize	bundle/Command-T/ruby/command-t/finder/file_finder.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.FileFinder
+initialize	bundle/Command-T/ruby/command-t/finder/jump_finder.rb	/^    def initialize$/;"	f	class:CommandT.JumpFinder
+initialize	bundle/Command-T/ruby/command-t/match_window.rb	/^    def initialize options = {}$/;"	f	class:CommandT.MatchWindow
+initialize	bundle/Command-T/ruby/command-t/prompt.rb	/^    def initialize$/;"	f	class:CommandT.Prompt
+initialize	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    def initialize path = Dir.pwd, options = {}$/;"	f	class:CommandT.FileScanner
+initialize	bundle/Command-T/ruby/command-t/settings.rb	/^    def initialize$/;"	f	class:CommandT.Settings
+initialize	bundle/Command-T/vendor/vimball/vimball.rb	/^        def initialize(output=$stdout)$/;"	f	class:Vimball.AppLog
+initialize	bundle/Command-T/vendor/vimball/vimball.rb	/^    def initialize(config)$/;"	f
+initialize	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^        def initialize(output=$stdout)$/;"	f	class:VimScriptDef.AppLog
+initialize	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^    def initialize(config)$/;"	f
+initialize	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^        def initialize(output=$stdout)$/;"	f	class:VimScriptUploader.AppLog
+initialize	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^    def initialize(config, args)$/;"	f
+isTreeOpen	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:isTreeOpen()$/;"	f
+isWindowUsable	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:isWindowUsable(winnumber)$/;"	f
+jumpToChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToChild(direction)$/;"	f
+jumpToFirstChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToFirstChild()$/;"	f
+jumpToLastChild	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToLastChild()$/;"	f
+jumpToParent	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToParent()$/;"	f
+jumpToRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToRoot()$/;"	f
+jumpToSibling	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:jumpToSibling(forward)$/;"	f
+jump_finder	bundle/Command-T/ruby/command-t/controller.rb	/^    def jump_finder$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+jumps	bundle/Command-T/ruby/command-t/scanner/jump_scanner.rb	/^    def jumps$/;"	f	class:CommandT.JumpScanner
+ldflags	bundle/Command-T/ruby/command-t/Makefile	/^ldflags  = -L. -Wl,-Bsymbolic-functions -rdynamic -Wl,-export-dynamic$/;"	m
+leave	bundle/Command-T/ruby/command-t/controller.rb	/^    def leave$/;"	f	class:CommandT.Controller
+leave	bundle/Command-T/ruby/command-t/match_window.rb	/^    def leave$/;"	f	class:CommandT.MatchWindow
+libdir	bundle/Command-T/ruby/command-t/Makefile	/^libdir = $(exec_prefix)\/lib$/;"	m
+libexecdir	bundle/Command-T/ruby/command-t/Makefile	/^libexecdir = $(prefix)\/lib\/ruby1.8$/;"	m
+libpath	bundle/Command-T/ruby/command-t/Makefile	/^libpath = . $(libdir)$/;"	m
+line_contains_filename?	bundle/Command-T/ruby/command-t/scanner/jump_scanner.rb	/^    def line_contains_filename? line$/;"	f	class:CommandT.JumpScanner
+lines	bundle/Command-T/ruby/command-t/vim/screen.rb	/^      def self.lines$/;"	F	class:CommandT.VIM.Screen
+list_matches	bundle/Command-T/ruby/command-t/controller.rb	/^    def list_matches$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+loaded_matchit	bundle/matchit/plugin/matchit.vim	/^let loaded_matchit = 1$/;"	v
+loaded_nerd_tree	bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+loaded_snips	bundle/snipmate/plugin/snipMate.vim	/^let loaded_snips = 1$/;"	v
+loaded_taglist	bundle/tag_list/plugin/taglist.vim	/^            let loaded_taglist = 'no'$/;"	v
+loaded_taglist	bundle/tag_list/plugin/taglist.vim	/^        let loaded_taglist = 'no'$/;"	v
+loaded_taglist	bundle/tag_list/plugin/taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v
+loaded_taglist	bundle/tag_list/plugin/taglist.vim	/^let loaded_taglist = 'available'$/;"	v
+localedir	bundle/Command-T/ruby/command-t/Makefile	/^localedir = $(datarootdir)\/locale$/;"	m
+localstatedir	bundle/Command-T/ruby/command-t/Makefile	/^localstatedir = $(DESTDIR)\/var$/;"	m
+lock	bundle/Command-T/ruby/command-t/match_window.rb	/^    def lock$/;"	f	class:CommandT.MatchWindow
+login	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^    def login$/;"	f
+logout	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^    def logout$/;"	f	class:login
+mCommandT	bundle/Command-T/ruby/command-t/ext.c	/^VALUE mCommandT         = 0; \/\/ module CommandT$/;"	v
+mandir	bundle/Command-T/ruby/command-t/Makefile	/^mandir = $(prefix)\/share\/man$/;"	m
+map	bundle/Command-T/ruby/command-t/controller.rb	/^    def map key, function, param = nil$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+map	bundle/supertab/plugin/supertab.vim	/^      let map = maparg('<cr>', 'i')$/;"	v
+map	bundle/supertab/plugin/supertab.vim	/^      let map = s:ExpandMap(map)$/;"	v
+match_for	bundle/Command-T/spec/command-t/match_spec.rb	/^  def match_for path, pattern$/;"	f
+match_limit	bundle/Command-T/ruby/command-t/controller.rb	/^    def match_limit$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+match_text_for_idx	bundle/Command-T/ruby/command-t/match_window.rb	/^    def match_text_for_idx idx$/;"	f	class:CommandT.MatchWindow
+matches=	bundle/Command-T/ruby/command-t/match_window.rb	/^    def matches= matches$/;"	f	class:CommandT.MatchWindow
+matchinfo_t	bundle/Command-T/ruby/command-t/match.c	/^} matchinfo_t;$/;"	t	typeref:struct:__anon1	file:
+max_height	bundle/Command-T/ruby/command-t/controller.rb	/^    def max_height$/;"	f	class:CommandT.Controller
+max_score_per_char	bundle/Command-T/ruby/command-t/match.c	/^    double  max_score_per_char;$/;"	m	struct:__anon1	file:
+missing	bundle/Command-T/ruby/command-t/extconf.rb	/^def missing item$/;"	f
+move_cursor_to_selected_line	bundle/Command-T/ruby/command-t/match_window.rb	/^    def move_cursor_to_selected_line$/;"	f	class:CommandT.MatchWindow
+never_show_dot_files	bundle/Command-T/ruby/command-t/match.c	/^    int     never_show_dot_files;   \/\/ boolean$/;"	m	struct:__anon1	file:
+nextBufferName	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:nextBufferName()$/;"	f
+oldincludedir	bundle/Command-T/ruby/command-t/Makefile	/^oldincludedir = $(DESTDIR)\/usr\/include$/;"	m
+openBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openBookmark(name)$/;"	f
+openEntrySplit	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openEntrySplit(vertical, forceKeepWindowOpen)$/;"	f
+openExplorer	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openExplorer()$/;"	f
+openInNewTab	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openInNewTab(stayCurrentTab)$/;"	f
+openNodeRecursively	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:openNodeRecursively()$/;"	f
+open_selection	bundle/Command-T/ruby/command-t/controller.rb	/^    def open_selection selection, options = {}$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+option_init	bundle/delimitMate/plugin/delimitMate.vim	/^function! s:option_init(name, default) "{{{$/;"	f
+padding_for_selected_match	bundle/Command-T/ruby/command-t/match_window.rb	/^    def padding_for_selected_match str$/;"	f	class:CommandT.MatchWindow
+path=	bundle/Command-T/ruby/command-t/finder.rb	/^    def path= path$/;"	f	class:CommandT.Finder
+path_excluded?	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    def path_excluded? path$/;"	f	class:CommandT.FileScanner
+pathogen#glob	autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort " {{{1$/;"	f
+pathogen#glob_directories	autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort " {{{1$/;"	f
+pathogen#helptags	autoload/pathogen.vim	/^function! pathogen#helptags() " {{{1$/;"	f
+pathogen#is_disabled	autoload/pathogen.vim	/^function! pathogen#is_disabled(path) " {{{1$/;"	f
+pathogen#join	autoload/pathogen.vim	/^function! pathogen#join(...) abort " {{{1$/;"	f
+pathogen#legacyjoin	autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort " {{{1$/;"	f
+pathogen#runtime_append_all_bundles	autoload/pathogen.vim	/^function! pathogen#runtime_append_all_bundles(...) " {{{1$/;"	f
+pathogen#runtime_prepend_subdirectories	autoload/pathogen.vim	/^function! pathogen#runtime_prepend_subdirectories(path) " {{{1$/;"	f
+pathogen#separator	autoload/pathogen.vim	/^function! pathogen#separator() abort " {{{1$/;"	f
+pathogen#split	autoload/pathogen.vim	/^function! pathogen#split(path) abort " {{{1$/;"	f
+pathogen#uniq	autoload/pathogen.vim	/^function! pathogen#uniq(list) abort " {{{1$/;"	f
+paths	bundle/Command-T/ruby/command-t/scanner/buffer_scanner.rb	/^    def paths$/;"	f	class:CommandT.BufferScanner
+paths	bundle/Command-T/ruby/command-t/scanner/file_scanner.rb	/^    def paths$/;"	f	class:CommandT.FileScanner
+paths	bundle/Command-T/ruby/command-t/scanner/jump_scanner.rb	/^    def paths$/;"	f	class:CommandT.JumpScanner
+pdfdir	bundle/Command-T/ruby/command-t/Makefile	/^pdfdir = $(docdir)$/;"	m
+post_install	bundle/Command-T/vendor/vimball/vimball.rb	/^    def post_install$/;"	f
+prefix	bundle/Command-T/ruby/command-t/Makefile	/^prefix = $(DESTDIR)\/usr$/;"	m
+preload	bundle/Command-T/ruby/command-t/Makefile	/^preload = $/;"	m
+previewNode	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:previewNode(openNewWin)$/;"	f
+print_error	bundle/Command-T/ruby/command-t/match_window.rb	/^    def print_error msg$/;"	f	class:CommandT.MatchWindow
+print_match	bundle/Command-T/ruby/command-t/match_window.rb	/^    def print_match idx$/;"	f	class:CommandT.MatchWindow
+print_matches	bundle/Command-T/ruby/command-t/match_window.rb	/^    def print_matches$/;"	f	class:CommandT.MatchWindow
+print_no_such_file_or_directory	bundle/Command-T/ruby/command-t/match_window.rb	/^    def print_no_such_file_or_directory$/;"	f	class:CommandT.MatchWindow
+process	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^    def process$/;"	f
+process	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^    def process$/;"	f
+promptToDelBuffer	bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+promptToDelBuffer	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+psdir	bundle/Command-T/ruby/command-t/Makefile	/^psdir = $(docdir)$/;"	m
+putCursorInTreeWin	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:putCursorInTreeWin()$/;"	f
+putCursorOnBookmarkTable	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:putCursorOnBookmarkTable()$/;"	f
+pwd	bundle/Command-T/ruby/command-t/vim.rb	/^    def self.pwd$/;"	F	class:CommandT.VIM
+read_config	bundle/Command-T/vendor/vimball/vimball.rb	/^        def read_config(config)$/;"	f	class:Vimball
+read_vimball	bundle/Command-T/vendor/vimball/vimball.rb	/^    def read_vimball(file)$/;"	f
+ready?	bundle/Command-T/vendor/vimball/vimball.rb	/^    def ready?$/;"	f
+recursive_match	bundle/Command-T/ruby/command-t/match.c	/^double recursive_match(matchinfo_t *m,  \/\/ sharable meta-data$/;"	f
+redraw	bundle/Command-T/ruby/command-t/prompt.rb	/^    def redraw$/;"	f	class:CommandT.Prompt
+refreshCurrent	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:refreshCurrent()$/;"	f
+refreshRoot	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:refreshRoot()$/;"	f
+register_for_key_presses	bundle/Command-T/ruby/command-t/controller.rb	/^    def register_for_key_presses$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+relative_path_under_working_directory	bundle/Command-T/ruby/command-t/vim/path_utilities.rb	/^      def relative_path_under_working_directory path$/;"	f	class:CommandT.VIM.PathUtilities
+relativize_path	bundle/Command-T/spec/vim_formatter.rb	/^        def relativize_path path$/;"	f	class:Spec.Runner.Formatter.VimFormatter
+renderBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:renderBookmarks()$/;"	f
+renderView	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:renderView()$/;"	f
+renderViewSavingPosition	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:renderViewSavingPosition()$/;"	f
+restore	bundle/Command-T/ruby/command-t/settings.rb	/^    def restore$/;"	f	class:CommandT.Settings
+restoreScreenState	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:restoreScreenState()$/;"	f
+restore_window_dimensions	bundle/Command-T/ruby/command-t/match_window.rb	/^    def restore_window_dimensions$/;"	f	class:CommandT.MatchWindow
+revealBookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:revealBookmark(name)$/;"	f
+ruby	bundle/Command-T/ruby/command-t/Makefile	/^ruby = \/usr\/bin\/ruby1.8$/;"	m
+ruby_inspect	bundle/Command-T/ruby/command-t/ext.h	36;"	d
+ruby_version	bundle/Command-T/ruby/command-t/Makefile	/^ruby_version = 1.8$/;"	m
+rubyfiles	bundle/Command-T/Makefile	/^rubyfiles   := $(shell find ruby -name '*.rb')$/;"	m
+rubylibdir	bundle/Command-T/ruby/command-t/Makefile	/^rubylibdir = $(libdir)\/ruby\/$(ruby_version)$/;"	m
+run	bundle/Command-T/vendor/vimball/vimball.rb	/^    def run$/;"	f
+s:Bookmark	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:Bookmark = {}$/;"	v
+s:KeyMap	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTreeBufName	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:NERDTreeBufName = 'NERD_tree_'$/;"	v
+s:NERDTreeSortStarIndex	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:NERD_tree_version	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:NERD_tree_version = '4.1.0'$/;"	v
+s:Path	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:Path = {}$/;"	v
+s:Tlist_Skip_Refresh	bundle/tag_list/plugin/taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v
+s:TreeDirNode	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:TreeDirNode = copy(s:TreeFileNode)$/;"	v
+s:TreeFileNode	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:TreeFileNode = {}$/;"	v
+s:c	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:c['cache_dir'] = get(s:c, 'cache_dir', expand('$HOME').'\/.vim-cache')$/;"	v
+s:c	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:c['scanned_files'] = get(s:c, 'scanned_files', {})$/;"	v
+s:c	bundle/vim-addon-mw-utils/autoload/glob.vim	/^let s:c['glob_cache'] = get(s:c, 'glob_cache', {})$/;"	v
+s:c	bundle/vim-addon-mw-utils/autoload/glob.vim	/^let s:c['regex_ignore_directory'] = '\\<\\%([_.]darcs\\|\\.git\\|.svn\\|.hg\\|.cvs\\|.bzr\\)\\>'$/;"	v
+s:cpo_save	bundle/tag_list/plugin/taglist.vim	/^let s:cpo_save = &cpo$/;"	v
+s:define_cache_file	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:define_cache_file = "let this_dir = s:c['cache_dir'].'\/cached-file-conents' | let cache_file = expand(this_dir.'\/'.substitute(string([func_as_string, a:file]),'[[\\\\]{}:\/\\\\,''\\"# ]\\\\+','_','g'))"$/;"	v
+s:did_snip_helper	bundle/snipmate/ftplugin/html_snip_helper.vim	/^let s:did_snip_helper = 1$/;"	v
+s:did_snips_mappings	bundle/snipmate/after/plugin/snipMate.vim	/^let s:did_snips_mappings = 1$/;"	v
+s:done_bundles	autoload/pathogen.vim	/^let s:done_bundles = ''$/;"	v
+s:escape_chars	bundle/nerdtree/plugin/NERD_tree.vim	/^    let s:escape_chars =  " \\\\`\\|\\"#%&,?()\\*^<>"$/;"	v
+s:escape_chars	bundle/nerdtree/plugin/NERD_tree.vim	/^    let s:escape_chars =  " `\\|\\"#%&,?()\\*^<>"$/;"	v
+s:glob_cache	bundle/vim-addon-mw-utils/autoload/glob.vim	/^let s:glob_cache = s:c['glob_cache']$/;"	v
+s:last_mps	bundle/matchit/plugin/matchit.vim	/^let s:last_mps = ""$/;"	v
+s:last_words	bundle/matchit/plugin/matchit.vim	/^let s:last_words = ":"$/;"	v
+s:loaded_delimitMate	bundle/delimitMate/plugin/delimitMate.vim	/^let s:loaded_delimitMate = 1$/;"	v
+s:menu_char_prefix	bundle/tag_list/plugin/taglist.vim	/^let s:menu_char_prefix =$/;"	v
+s:modes	bundle/supertab/plugin/supertab.vim	/^  let s:modes = '\/^E\/^Y\/^L\/^N\/^K\/^T\/^I\/^]\/^F\/^D\/^V\/^P\/^U\/^O\/s'$/;"	v
+s:modes	bundle/supertab/plugin/supertab.vim	/^  let s:modes = s:modes . '\/n\/p'$/;"	v
+s:next_buffer_number	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:next_buffer_number = 1$/;"	v
+s:notslash	bundle/matchit/plugin/matchit.vim	/^let s:notslash = '\\\\\\@<!\\%(\\\\\\\\\\)*'$/;"	v
+s:old_cpo	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:read_snippets_cached	bundle/snipmate/autoload/snipMate.vim	/^let s:read_snippets_cached  = {'func' : function('snipMate#ReadSnippetsFile'), 'version': 3, 'use_file_cache':1}$/;"	v
+s:running_windows	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:running_windows = has("win16") || has("win32") || has("win64")$/;"	v
+s:save_cpo	bundle/matchit/plugin/matchit.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	bundle/supertab/plugin/supertab.vim	/^let s:save_cpo=&cpo$/;"	v
+s:scanned_files	bundle/vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:scanned_files = s:c['scanned_files']$/;"	v
+s:snipMate	bundle/snipmate/autoload/snipMate.vim	/^let s:snipMate = g:snipMate$/;"	v
+s:snipMate	bundle/snipmate/autoload/snipMate.vim	/^let s:snipMate['scope_aliases'] = get(s:snipMate,'scope_aliases',$/;"	v
+s:snipMate	bundle/snipmate/plugin/snipMate.vim	/^let s:snipMate = g:snipMate$/;"	v
+s:snipMate	bundle/snipmate/plugin/snipMate.vim	/^let s:snipMate['get_snippets'] = get(s:snipMate, 'get_snippets', funcref#Function("snipMate#GetSnippets"))$/;"	v
+s:snips_trigger_key_normalized	bundle/snipmate/after/plugin/snipMate.vim	/^let s:snips_trigger_key_normalized = substitute(g:snips_trigger_key, '[<>]', '', 'g')$/;"	v
+s:tabHelp	bundle/supertab/plugin/supertab.vim	/^  let s:tabHelp =$/;"	v
+s:tlist_app_name	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_app_name = "none"$/;"	v
+s:tlist_brief_help	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_brief_help = 1$/;"	v
+s:tlist_cur_file_idx	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v
+s:tlist_debug	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_debug = 0$/;"	v
+s:tlist_debug_file	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_debug_file = ''$/;"	v
+s:tlist_def_asm_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v
+s:tlist_def_aspperl_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_aspvbs_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_awk_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v
+s:tlist_def_beta_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v
+s:tlist_def_c_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v
+s:tlist_def_cobol_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v
+s:tlist_def_cpp_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v
+s:tlist_def_cs_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v
+s:tlist_def_csh_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_eiffel_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v
+s:tlist_def_erlang_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v
+s:tlist_def_expect_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v
+s:tlist_def_fortran_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v
+s:tlist_def_html_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v
+s:tlist_def_java_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v
+s:tlist_def_javascript_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v
+s:tlist_def_lisp_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v
+s:tlist_def_lua_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v
+s:tlist_def_make_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v
+s:tlist_def_pascal_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v
+s:tlist_def_perl_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v
+s:tlist_def_php_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v
+s:tlist_def_python_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v
+s:tlist_def_rexx_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v
+s:tlist_def_ruby_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v
+s:tlist_def_scheme_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v
+s:tlist_def_sh_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_slang_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v
+s:tlist_def_sml_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v
+s:tlist_def_sql_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v
+s:tlist_def_tcl_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v
+s:tlist_def_vera_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v
+s:tlist_def_verilog_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v
+s:tlist_def_vim_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v
+s:tlist_def_yacc_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v
+s:tlist_def_zsh_settings	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v
+s:tlist_file_count	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_file_count = 0$/;"	v
+s:tlist_file_lnum_idx_cache	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v
+s:tlist_file_name_idx_cache	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v
+s:tlist_file_names	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_file_names=''$/;"	v
+s:tlist_ftype_count	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v
+s:tlist_menu_empty	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v
+s:tlist_msg	bundle/tag_list/plugin/taglist.vim	/^    let s:tlist_msg = ''$/;"	v
+s:tlist_removed_flist	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v
+s:tlist_sid	bundle/tag_list/plugin/taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v
+s:tlist_win_maximized	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v
+s:tlist_winsize_chgd	bundle/tag_list/plugin/taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v
+s:tree_markup_reg	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:tree_markup_reg = '^[ `|]*[\\-+~]'$/;"	v
+s:tree_up_dir_line	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:tree_wid	bundle/nerdtree/plugin/NERD_tree.vim	/^let s:tree_wid = 2$/;"	v
+s:types	bundle/supertab/plugin/supertab.vim	/^  let s:types = s:types . "np"$/;"	v
+s:types	bundle/supertab/plugin/supertab.vim	/^  let s:types =$/;"	v
+sanitize_path_string	bundle/Command-T/ruby/command-t/controller.rb	/^    def sanitize_path_string str$/;"	f	class:CommandT.Controller
+save	bundle/Command-T/ruby/command-t/settings.rb	/^    def save$/;"	f	class:CommandT.Settings
+saveScreenState	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:saveScreenState()$/;"	f
+save_cpo	bundle/delimitMate/plugin/delimitMate.vim	/^let save_cpo = &cpo$/;"	v
+sbindir	bundle/Command-T/ruby/command-t/Makefile	/^sbindir = $(exec_prefix)\/sbin$/;"	m
+select	bundle/Command-T/ruby/command-t/vim/window.rb	/^      def self.select window$/;"	F	class:CommandT.VIM.Window
+select_next	bundle/Command-T/ruby/command-t/controller.rb	/^    def select_next$/;"	f	class:CommandT.Controller
+select_next	bundle/Command-T/ruby/command-t/match_window.rb	/^    def select_next$/;"	f	class:CommandT.MatchWindow
+select_prev	bundle/Command-T/ruby/command-t/controller.rb	/^    def select_prev$/;"	f	class:CommandT.Controller
+select_prev	bundle/Command-T/ruby/command-t/match_window.rb	/^    def select_prev$/;"	f	class:CommandT.MatchWindow
+selection	bundle/Command-T/ruby/command-t/match_window.rb	/^    def selection$/;"	f	class:CommandT.MatchWindow
+set_bool	bundle/Command-T/ruby/command-t/settings.rb	/^    def set_bool setting, value$/;"	f	class:CommandT.Settings
+set_level	bundle/Command-T/vendor/vimball/vimball.rb	/^        def self.set_level$/;"	F	class:Vimball.AppLog
+set_level	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^        def self.set_level$/;"	F	class:VimScriptDef.AppLog
+set_level	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^        def self.set_level$/;"	F	class:VimScriptUploader.AppLog
+set_number	bundle/Command-T/ruby/command-t/settings.rb	/^    def set_number setting, value$/;"	f	class:CommandT.Settings
+set_status	bundle/Command-T/ruby/command-t/prompt.rb	/^    def set_status *args$/;"	f	class:CommandT.Prompt
+setupStatusline	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:setupStatusline()$/;"	f
+setupSyntaxHighlighting	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:setupSyntaxHighlighting()$/;"	f
+sharedstatedir	bundle/Command-T/ruby/command-t/Makefile	/^sharedstatedir = $(prefix)\/com$/;"	m
+show	bundle/Command-T/ruby/command-t/controller.rb	/^    def show$/;"	f	class:CommandT.Controller
+showMenu	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:showMenu()$/;"	f
+show_buffer_finder	bundle/Command-T/ruby/command-t/controller.rb	/^    def show_buffer_finder$/;"	f	class:CommandT.Controller
+show_cursor	bundle/Command-T/ruby/command-t/match_window.rb	/^    def show_cursor$/;"	f	class:CommandT.MatchWindow
+show_file_finder	bundle/Command-T/ruby/command-t/controller.rb	/^    def show_file_finder$/;"	f	class:CommandT.Controller
+show_jump_finder	bundle/Command-T/ruby/command-t/controller.rb	/^    def show_jump_finder$/;"	f	class:CommandT.Controller
+sitearch	bundle/Command-T/ruby/command-t/Makefile	/^sitearch = x86_64-linux$/;"	m
+sitearchdir	bundle/Command-T/ruby/command-t/Makefile	/^sitearchdir = $(sitelibdir)\/$(sitearch)$/;"	m
+sitedir	bundle/Command-T/ruby/command-t/Makefile	/^sitedir = $(DESTDIR)\/usr\/local\/lib\/site_ruby$/;"	m
+sitelibdir	bundle/Command-T/ruby/command-t/Makefile	/^sitelibdir = $(sitedir)\/$(ruby_version)$/;"	m
+snipMate#GetSnippetFiles	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#GetSnippetFiles(mustExist, scopes, trigger)$/;"	f
+snipMate#GetSnippets	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#GetSnippets(scopes, trigger)$/;"	f
+snipMate#OpenSnippetFiles	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#OpenSnippetFiles()$/;"	f
+snipMate#ReadSnippetsFile	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#ReadSnippetsFile(file)$/;"	f
+snipMate#RetabSnip	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#RetabSnip() range$/;"	f
+snipMate#SetByPath	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#SetByPath(dict, path, value)$/;"	f
+snipMate#expandSnip	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#expandSnip(snip, col)$/;"	f
+snipMate#jumpTabStop	bundle/snipmate/autoload/snipMate.vim	/^fun! snipMate#jumpTabStop(backwards)$/;"	f
+snipMate_python_demo#Activate	bundle/snipmate/autoload/snipMate_python_demo.vim	/^fun! snipMate_python_demo#Activate()$/;"	f
+snipMate_python_demo#FunctionsFromCurrentFileAndTags	bundle/snipmate/autoload/snipMate_python_demo.vim	/^fun! snipMate_python_demo#FunctionsFromCurrentFileAndTags(scopes, trigger, result)$/;"	f
+snippets_dir	bundle/snipmate/plugin/snipMate.vim	/^	let snippets_dir = substitute(globpath(&rtp, 'snippets\/'), "\\n", ',', 'g')$/;"	v
+sorted_matches_for	bundle/Command-T/ruby/command-t/finder.rb	/^    def sorted_matches_for str, options = {}$/;"	f	class:CommandT.Finder
+srcdir	bundle/Command-T/ruby/command-t/Makefile	/^srcdir = .$/;"	m
+start_comment	bundle/snipmate-snippets/snippets/support_functions.vim	/^function! s:start_comment()$/;"	f
+str_len	bundle/Command-T/ruby/command-t/match.c	/^    long    str_len;                \/\/ length of same$/;"	m	struct:__anon1	file:
+str_p	bundle/Command-T/ruby/command-t/match.c	/^    char    *str_p;                 \/\/ pointer to string to be searched$/;"	m	struct:__anon1	file:
+stripMarkupFromLine	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+stub_finder	bundle/Command-T/spec/command-t/controller_spec.rb	/^  def stub_finder(sorted_matches=[])$/;"	f
+stub_match_window	bundle/Command-T/spec/command-t/controller_spec.rb	/^  def stub_match_window(selection)$/;"	f
+stub_prompt	bundle/Command-T/spec/command-t/controller_spec.rb	/^  def stub_prompt(abbrev='')$/;"	f
+stub_vim	bundle/Command-T/spec/command-t/controller_spec.rb	/^  def stub_vim(working_directory)$/;"	f
+sysconfdir	bundle/Command-T/ruby/command-t/Makefile	/^sysconfdir = $(DESTDIR)\/etc$/;"	m
+tabpagevar	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:tabpagevar(tabnr, var)$/;"	f
+target_prefix	bundle/Command-T/ruby/command-t/Makefile	/^target_prefix = $/;"	m
+tiny_cmd#Get	bundle/vim-addon-mw-utils/autoload/tiny_cmd.vim	/^fun! tiny_cmd#Get(nr)$/;"	f
+tiny_cmd#Pop	bundle/vim-addon-mw-utils/autoload/tiny_cmd.vim	/^fun! tiny_cmd#Pop(nr)$/;"	f
+tiny_cmd#Put	bundle/vim-addon-mw-utils/autoload/tiny_cmd.vim	/^fun! tiny_cmd#Put(a)$/;"	f
+toggle	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggle(dir)$/;"	f
+toggleIgnoreFilter	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:toggleZoom()$/;"	f
+toggle_focus	bundle/Command-T/ruby/command-t/controller.rb	/^    def toggle_focus$/;"	f	class:CommandT.Controller
+topdir	bundle/Command-T/ruby/command-t/Makefile	/^topdir = \/usr\/lib\/ruby\/1.8\/x86_64-linux$/;"	m
+treeExistsForBuf	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:treeExistsForBuf()$/;"	f
+treeExistsForTab	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:treeExistsForTab()$/;"	f
+truncated_match	bundle/Command-T/ruby/command-t/match_window.rb	/^    def truncated_match str$/;"	f	class:CommandT.MatchWindow
+txtfiles	bundle/Command-T/Makefile	/^txtfiles    := $(shell find doc -name '*.txt')$/;"	m
+unfocus	bundle/Command-T/ruby/command-t/match_window.rb	/^    def unfocus$/;"	f	class:CommandT.MatchWindow
+unfocus	bundle/Command-T/ruby/command-t/prompt.rb	/^    def unfocus$/;"	f	class:CommandT.Prompt
+unique	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:unique(list)$/;"	f
+unload	bundle/Command-T/ruby/command-t/controller.rb	/^    def unload$/;"	f	class:CommandT.Controller
+unload	bundle/Command-T/ruby/command-t/match_window.rb	/^    def unload$/;"	f	class:CommandT.MatchWindow
+unlock	bundle/Command-T/ruby/command-t/match_window.rb	/^    def unlock$/;"	f	class:CommandT.MatchWindow
+upDir	bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:upDir(keepState)$/;"	f
+upload	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^    def upload(script_def)$/;"	f	class:login
+vendorarchdir	bundle/Command-T/ruby/command-t/Makefile	/^vendorarchdir = $(vendorlibdir)\/$(sitearch)$/;"	m
+vendordir	bundle/Command-T/ruby/command-t/Makefile	/^vendordir = $(libdir)\/ruby\/vendor_ruby$/;"	m
+vendorlibdir	bundle/Command-T/ruby/command-t/Makefile	/^vendorlibdir = $(vendordir)\/$(ruby_version)$/;"	m
+vimfiles	bundle/Command-T/Makefile	/^vimfiles    := $(shell find plugin -name '*.vim')$/;"	m
+vt100?	bundle/Command-T/ruby/command-t/controller.rb	/^    def vt100?$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+warn	bundle/Command-T/ruby/command-t/stub.rb	/^    def warn *msg$/;"	f	class:CommandT.Stub
+with_args	bundle/Command-T/vendor/vimball/vimball.rb	/^        def with_args(args)$/;"	f	class:Vimball
+with_args	bundle/Command-T/vendor/vimscriptuploader/vimscriptdef.rb	/^        def with_args(args)$/;"	f	class:VimScriptDef
+with_args	bundle/Command-T/vendor/vimscriptuploader/vimscriptuploader.rb	/^        def with_args(args)$/;"	f	class:VimScriptUploader
+with_vimball	bundle/Command-T/vendor/vimball/vimball.rb	/^    def with_vimball(vimball)$/;"	f
+xterm?	bundle/Command-T/ruby/command-t/controller.rb	/^    def xterm?$/;"	f	class:CommandT.Controller.ensure_appropriate_window_selection
+{<CR>	ftplugin/c.vim	/^inoremap {<CR> {<CR>}<Esc>O$/;"	m

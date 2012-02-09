@@ -1414,22 +1414,22 @@ function! s:Tlist_Window_Exit_Only_Window()
     " Before quitting Vim, delete the taglist buffer so that
     " the '0 mark is correctly set to the previous buffer.
     if v:version < 700
-	if winbufnr(2) == -1
-	    bdelete
-	    quit
-	endif
-    else
-	if winbufnr(2) == -1
-	    if tabpagenr('$') == 1
-		" Only one tag page is present
-		bdelete
-		quit
-	    else
-		" More than one tab page is present. Close only the current
-		" tab page
-		close
+	    if winbufnr(2) == -1
+	        bdelete
+	        quit
 	    endif
-	endif
+    else
+	    if winbufnr(2) == -1
+	        if tabpagenr('$') == 1
+		        " Only one tag page is present
+		        bdelete
+		        quit
+	        else
+		        " More than one tab page is present. Close only the current
+		        " tab page
+		        close
+	        endif
+	    endif
     endif
 endfunction
 

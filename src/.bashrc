@@ -5,9 +5,10 @@ echo "Assigning aliases ..."
 alias la='ls -aF --color'
 alias ls='ls -F --color'
 alias ll='ls -lF --color'
-alias vim='gvim'
+alias vim='gvim -f'
 alias vii='/usr/bin/vim'
 alias cd='cdls'
+alias chrome='chromium-browser'
 
 echo "Adding PATHs ..."
 
