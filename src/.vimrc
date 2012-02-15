@@ -1,3 +1,6 @@
+filetype on
+filetype off
+
 " Environment
 set nocompatible
 runtime! autoload/pathogen.vim
