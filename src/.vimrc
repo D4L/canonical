@@ -1,3 +1,6 @@
+filetype on
+filetype off
+
 " Environment
 set nocompatible
 set lines=37 columns=150
