@@ -5,7 +5,7 @@ echo "Assigning aliases ..."
 alias la='ls -aF --color'
 alias ls='ls -F --color'
 alias ll='ls -lF --color'
-alias vim='gvim -f'
+alias vim='gvim'
 alias vii='/usr/bin/vim'
 alias cd='cdls'
 alias chrome='chromium-browser'
