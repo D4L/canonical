@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/usr2/austinl/.vim/bundle/Command-T'
-let g:netrw_dirhist_2='/usr2/austinl/.vim/ftplugin'
-let g:netrw_dirhist_3='/usr2/austinl/.vim'
-let g:netrw_dirhist_4='/local/mnt/workspace/Code/mdm/smdBuild/kernel/arch/arm/mach-msm'
